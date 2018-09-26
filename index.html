@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <main>
+
+    <body>
+
+      <div class="tooltip">
+        <p>current <strong>over half definition:</strong> if watch_type is equal to "half", "finished", or "endat%#" with the percentage being 50 or higher.</p>
+        <p>current <strong>watches definition:</strong> if watch_type is NOT equal to "start", "onwatch", or the "endat%#" is not greater than zero</p>
+        <p><strong>Unique users</strong> can only counted once for each category</p>
+      </div>
+
+      <div class="stat-box">
+        <h3>Email Stats<h3>
+          <h2><span id="email__title">Title Placeholder</span></h2>
+            <h2><span id="email__date">date Placeholder</span></h2>
+          <div class="stat-container prior">
+            <p><span class="length-of-time">X</span> days <strong>prior</strong> </p>
+            <ul>
+              <li><span id="prior-watches">X</span> watches</li>
+              <li><span id="prior-half">X</span> over half</li>
+            </ul>
+          </div>
+          <div class="stat-container since">
+            <p><span class="length-of-time">X</span> days <strong>since</strong> </p>
+            <ul>
+              <li><span id="since-watches">X</span> watches</li>
+              <li><span id="since-half">X</span> over half</li>
+            </ul>
+          </div>
+      </div>
+
+      <svg width="960" height="500"></svg>
+
+      <div class="emailChoices">
+    <p>Please Select an Email to graph</p>
+    <ul>
+      <li><INPUT TYPE="Radio" Name="emailSelect" Value="6829" checked>Mapping Experiences: It’s the Destination and the Journey</li>
+      <li><INPUT TYPE="Radio" Name="emailSelect" Value=4812>Sharing our Stories: Designing and Reviewing UX Portfolios</li>
+      <li><INPUT TYPE="Radio" Name="emailSelect" Value=4997>Measuring The Customer Experience Using Top Tasks</li>
+      <li><INPUT TYPE="Radio" Name="emailSelect" Value=3303>A User-centered Approach to Product Planning and Visioning</li>
+      <li><INPUT TYPE="Radio" Name="emailSelect" Value=10715>IA lense(for test purposes)</li>
+
+    </ul>
+
+
+
+  </div>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="app.js"></script>
+    </body>
+  </main>
+</html>

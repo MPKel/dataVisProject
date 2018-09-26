@@ -1,0 +1,37 @@
+body {
+  font: 12px Arial;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: #eeeeee;
+
+}
+
+
+.stat-box {
+  border: 3px solid rgba(90,100,256,0.3);
+  box-shadow: inset 2px 2px 2px gray;
+  background-color: rgba(256,256,256,0.3);
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 9px;
+  font-size: 1rem;
+}
+
+.stat-box p {
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}
+
+.stat-box ul {
+  list-style-type: none;
+}
+
+.tooltip {
+  background-color: #ff130094;
+  padding: 1.3rem;
+  font-size: .875rem;
+}
