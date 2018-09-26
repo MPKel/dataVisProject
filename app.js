@@ -6,7 +6,7 @@ $(document).ready(function(){
     {entry_id: "4812", title: "Sharing our Stories: Designing and Reviewing UX Portfolios", sendDate: 1531495771, engDate: "07/13/2018", fileName: "sharingOurStories.txt"},
     {entry_id: "4997", title: "Measuring The Customer Experience Using Top Tasks", sendDate: 1531919432, engDate: "07/18/2018", fileName: "measuringTheCustomerExperience.txt"},
     {entry_id: "3303", title: "A User-centered Approach to Product Planning and Visioning", sendDate: 1531329455, engDate: "07/20/2018", fileName: "aUserCenteredApproach.txt"},
-    {entry_id: "10715", title: "IA lense(for test purposes)", sendDate: 1536765928, engDate: "09/12/2018", fileName: "testText.txt"}
+    {entry_id: "10715", title: "IA lense(for test purposes)", sendDate: 1536765928, engDate: "09/12/2018", fileName: "testText.tsv"}
 
   ];
 
@@ -86,40 +86,38 @@ function getStats() {
      //container for input split by new lines
      holder = data.split("\n");
 
-
-
      // loop through each individual line of stats
      for(let i = 0; i < holder.length-1; i++) {
-       let tempHolder = holder[i].split(',');
+       let tempHolder = holder[i].split("\t");
 
-       if(tempHolder[2].startsWith("endat")) {
-         tempHolder[2] = parseInt(tempHolder[2].replace("endat", ""));
+       if(tempHolder[3].startsWith("endat")) {
+         tempHolder[3] = parseInt(tempHolder[3].replace("endat", ""));
        }
 
          //if the watchDate was BEFORE the SendDate AND the sendDate minus the watchDate is less than or equal to the difference between today and the sendDate
-         if((tempHolder[3] < sendDate) && (sendDate - tempHolder[3] <= dateDiff)) {
-             if( (tempHolder[2] === "half") || (tempHolder[2] === "finished") || (tempHolder[2] >= 50) ){
+         if((tempHolder[6] < sendDate) && (sendDate - tempHolder[6] <= dateDiff)) {
+             if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                priorWatchesHalf.add(tempHolder[0]);
              }
-             if( tempHolder[2] != "start" && tempHolder[2] != "onwatch" &&  typeof(tempHolder[2]) === "string"){
+             if( tempHolder[3] != "start" && tempHolder[3] != "onwatch" &&  typeof(tempHolder[3]) === "string"){
                  priorWatchesTotal.add(tempHolder[0]);
                }
-             else if (tempHolder[2] > 0) {
+             else if (tempHolder[3] > 0) {
                priorWatchesTotal.add(tempHolder[0]);
              }
 
          }
          //if the watchDate was AFTER the SendDate AND the watchDate minus the sendDate is less than or equal to the difference between today and the sendDate
-         else if( (tempHolder[3] >= sendDate) && (tempHolder[3] - sendDate <= dateDiff) ) {
+         else if( (tempHolder[6] >= sendDate) && (tempHolder[6] - sendDate <= dateDiff) ) {
 
-             if( (tempHolder[2] === "half") || (tempHolder[2] === "finished") || (tempHolder[2] >= 50) ){
+             if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                sinceWatchesHalf.add(tempHolder[0]);
              }
 
-             if( tempHolder[2] != "start" && tempHolder[2] != "onwatch" &&  typeof(tempHolder[2]) === "string"){
+             if( tempHolder[3] != "start" && tempHolder[3] != "onwatch" &&  typeof(tempHolder[3]) === "string"){
                  sinceWatchesTotal.add(tempHolder[0]);
              }
-            else if (tempHolder[2] > 0) {
+            else if (tempHolder[3] > 0) {
               sinceWatchesTotal.add(tempHolder[0]);
             }
 
