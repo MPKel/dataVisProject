@@ -224,7 +224,7 @@ drawData.forEach(function(d, index) {
 });
 
 
-console.log(drawData);
+console.log(drawData.length + " yououououo");
 
 
 
@@ -266,13 +266,13 @@ function newDraw(incdate) {
       height = 400 - margin.top - margin.bottom;
 
 
-  // var x = d3.scaleTime()
-  //     .range([0, width]);
+  var x = d3.scaleTime()
+      .range([0, width]);
 
 
-      var x = d3.scaleTime()
-    .domain(d3.extent(drawData, function(d) { return d.date; }))
-    .rangeRound([margin.left, width - margin.right]);
+    //   var x = d3.scaleTime()
+    // .domain(d3.extent(drawData, function(d) { return d.date; }))
+    // .rangeRound([margin.left, width - margin.right]);
   //
   var y = d3.scaleLinear()
       .range([height, 0]);
@@ -299,7 +299,7 @@ function newDraw(incdate) {
 
 
 
-  // x.domain([d3.min(drawData, function(d) { return new Date(type(d.date)); }), d3.max(drawData, function(d) { return new Date(type(d.date)); })]);
+  x.domain([d3.min(drawData, function(d) { return new Date(type(d.date)); }), d3.max(drawData, function(d) { return new Date(type(d.date)); })]);
   y.domain([d3.min(drawData, function(d) { return d.tally > 1 ? d.tally : 0; }), d3.max(drawData, function(d) { return d.tally; })]);
   //
 
@@ -331,22 +331,24 @@ function newDraw(incdate) {
     .data(drawData)
     .enter().append("rect")
     .attr("class", "bar")
-    .attr("x", x( new Date(type(d.date)) )  )
-    .attr("width", (width / drawData.length ))
+    .attr("x", function(d) {return x( new Date(type(d.date)) ) }  )
     .attr("shape-rendering", "auto")
+    .attr("width", (width / drawData.length) - 10)
     // .attr("width", function(d) { return d.bandwidth()  })
     .attr('y', function(d) { return y(d.tally); } )
     .attr('height', function(d,i){ return height - y(d.tally); })
     // .attr("y", function(d) { return y(d.tally) + y(d.tally) - height;})
     // .attr("height", function(d) { return height - y(d.tally); })
+    .attr("style", "outline: thin solid black;")
     .attr("fill", function(d) {
       if (new Date(type(d.date)) < new Date(incdate * 1000)) {
         return "red";
       }
       else {
-        return "blue";
+        return "green";
       }
     })
+    .style("border", "1px solid black")
     .on("mouseover", function(d) {
        div.transition()
          .duration(200)
