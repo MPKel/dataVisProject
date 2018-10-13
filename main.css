@@ -30,8 +30,38 @@ body {
   list-style-type: none;
 }
 
-.tooltip {
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 150px;
+  height: 58px;
+  padding: 7px;
+  font: 12px sans-serif;
+  color: white;
+  background: steelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.terms-box {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  width: 20%;
   background-color: #ff130094;
   padding: 1.3rem;
   font-size: .875rem;
+}
+
+
+.bar {
+  border: 1px solid black;
+
+}
+
+.x text {
+  font-size: .75rem;
+  transform: rotate(60deg) translateX(6px);
+  /* transform: translateX(3px); */
 }
