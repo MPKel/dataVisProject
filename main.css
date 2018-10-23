@@ -55,7 +55,9 @@ div.tooltip {
 }
 
 
-
+rect:hover {
+  fill: orange;
+}
 
 .x text {
   font-size: .75rem;

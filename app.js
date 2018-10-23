@@ -6,7 +6,8 @@ $(document).ready(function(){
     {entry_id: "4812", title: "Sharing our Stories: Designing and Reviewing UX Portfolios", sendDate: 1531495771, engDate: "07/13/2018", fileName: "sharingOurStories.csv"},
     {entry_id: "4997", title: "Measuring The Customer Experience Using Top Tasks", sendDate: 1531919432, engDate: "07/18/2018", fileName: "measuringTheCustomerExperience.csv"},
     {entry_id: "3303", title: "A User-centered Approach to Product Planning and Visioning", sendDate: 1531329455, engDate: "07/20/2018", fileName: "aUserCenteredApproach.csv"},
-    {entry_id: "10715", title: "IA lense(for test purposes)", sendDate: 1536765928, engDate: "09/12/2018", fileName: "testText.tsv"}
+    {entry_id: "10715", title: "IA lense(for test purposes)", sendDate: 1536765928, engDate: "09/12/2018", fileName: "testText.tsv"},
+    {entry_id: "10824", title: "How to Avoid a Runaway Redesign(testing purposes)", sendDate: 1539882079, engDate: "10/18/2018", fileName: "runawayRedesign.csv"}
 
   ];
 
@@ -48,6 +49,12 @@ function convertToDateTime(num) {
 
 
 }
+
+let dougdata = ["Thu Oct 15 2018", "Wed Oct 17 2018", "Thu Oct 18 2018"];
+console.log("loolooooo" + convertToDateTime( (1539882079 - 1539677048) * 1000 ) );
+console.log( dougdata.indexOf(new Date(1539782043 * 1000).toDateString())       );
+console.log(new Date(1536765928 * 1000));
+
 
 
 
@@ -142,8 +149,9 @@ function getStats() {
                          entryId: tempHolder[1]
                      });
                    }
-                   else if(drawData[liveIndex].entryId !== tempHolder[1]){
+                   else if( (drawData[liveIndex].entryId !== tempHolder[1]) ){
                       drawData[liveIndex].tally += 1;
+                      drawData[liveIndex].entryId = tempHolder[1];
                    }
 
 
@@ -159,8 +167,9 @@ function getStats() {
                        entryId: tempHolder[1]
                    });
                  }
-                 else if(drawData[liveIndex].entryId !== tempHolder[1]){
+                 else if( (drawData[liveIndex].entryId !== tempHolder[1]) ){
                     drawData[liveIndex].tally += 1;
+                    drawData[liveIndex].entryId = tempHolder[1];
                  }
 
              }
@@ -176,34 +185,37 @@ function getStats() {
              if( tempHolder[3] != "start" && tempHolder[3] != "onwatch" &&  typeof(tempHolder[3]) === "string"){
                  sinceWatchesTotal.add(tempHolder[1]);
 
-                 let  liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
-                 if(liveIndex == -1) {
-                   drawData.push({
-                       date: new Date(tempHolder[6] * 1000).toDateString(),
-                       tally: 1,
-                       entryId: tempHolder[1]
-                   });
-                 }
-                 else if(drawData[liveIndex].entryId !== tempHolder[1]){
-                    drawData[liveIndex].tally += 1;
-                 }
+                 let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                   if(liveIndex == -1) {
+                     drawData.push({
+                         date: new Date(tempHolder[6] * 1000).toDateString(),
+                         tally: 1,
+                         entryId: tempHolder[1]
+                     });
+                   }
+                   else if( (drawData[liveIndex].entryId !== tempHolder[1]) ){
+                      drawData[liveIndex].tally += 1;
+                      drawData[liveIndex].entryId = tempHolder[1];
+                   }
 
 
              }
             else if (tempHolder[3] > 0) {
               sinceWatchesTotal.add(tempHolder[1]);
 
-            let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
-              if(liveIndex == -1) {
-                drawData.push({
-                    date: new Date(tempHolder[6] * 1000).toDateString(),
-                    tally: 1,
-                    entryId: tempHolder[1]
-                });
-              }
-              else if(drawData[liveIndex].entryId !== tempHolder[1]){
-                 drawData[liveIndex].tally += 1;
-              }
+              let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                if(liveIndex == -1) {
+                  drawData.push({
+                      date: new Date(tempHolder[6] * 1000).toDateString(),
+                      tally: 1,
+                      entryId: tempHolder[1]
+                  });
+                }
+                else if( (drawData[liveIndex].entryId !== tempHolder[1])  ){
+                  console.log("enntntutththID " + drawData[liveIndex].entryId + "jhsdbfhjjhYAYAYAYA " + tempHolder[1]  + "lindex: " + liveIndex);
+                   drawData[liveIndex].tally += 1;
+                   drawData[liveIndex].entryId = tempHolder[1];
+                }
 
             }
 
@@ -224,12 +236,9 @@ drawData.forEach(function(d, index) {
 });
 
 
-console.log(drawData.length + " yououououo");
 
 
-
-
-// console.log(drawData)
+console.log(drawData);
      //Update numbers on the front end
      setPageView();
      d3.select("#uniqueSVG").empty();
@@ -341,14 +350,15 @@ function newDraw(incdate) {
     // .attr("height", function(d) { return height - y(d.tally); })
     .attr("style", "outline: thin solid black;")
     .attr("fill", function(d) {
-      if (new Date(type(d.date)) < new Date(incdate * 1000)) {
+      if(new Date(type(d.date)) < new Date(incdate * 1000)) {
+        console.log(type(d.date) +"REEEDDDD" + new Date(incdate * 1000).toDateString());
         return "red";
       }
       else {
+        console.log(type(d.date) +"GREEEEEN");
         return "green";
       }
     })
-    .style("border", "1px solid black")
     .on("mouseover", function(d) {
        div.transition()
          .duration(200)
