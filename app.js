@@ -271,8 +271,8 @@ function setActiveIndex(num) {
 function newDraw(incdate) {
   d3.select("#uniqueSVG").selectAll("*").remove();
   var margin = {top: 40, right: 30, bottom: 50, left: 30},
-      width = 760 - margin.left - margin.right,
-      height = 400 - margin.top - margin.bottom;
+      width = 760,
+      height = 400;
 
 
   var x = d3.scaleTime()
@@ -333,8 +333,7 @@ function newDraw(incdate) {
     .attr("transform", "rotate(180)")
     .attr("y", -36)
     .attr("dy", ".71em")
-    .style("text-anchor", "end")
-    .text("test1!");
+    .style("text-anchor", "end");
 
   svg.selectAll(".bar")
     .data(drawData)
@@ -342,7 +341,7 @@ function newDraw(incdate) {
     .attr("class", "bar")
     .attr("x", function(d) {return x( new Date(type(d.date)) ) }  )
     .attr("shape-rendering", "auto")
-    .attr("width", (width / drawData.length) - 10)
+    .attr( "width",  (width/drawData.length) -10 )
     // .attr("width", function(d) { return d.bandwidth()  })
     .attr('y', function(d) { return y(d.tally); } )
     .attr('height', function(d,i){ return height - y(d.tally); })
@@ -350,14 +349,21 @@ function newDraw(incdate) {
     // .attr("height", function(d) { return height - y(d.tally); })
     .attr("style", "outline: thin solid black;")
     .attr("fill", function(d) {
-      if(new Date(type(d.date)) < new Date(incdate * 1000)) {
-        console.log(type(d.date) +"REEEDDDD" + new Date(incdate * 1000).toDateString());
-        return "red";
+      if( new Date(type(d.date)).getMonth() === new Date(incdate * 1000).getMonth() ) {
+          if( new Date(type(d.date)).getDate() >= new Date(incdate * 1000).getDate() ) {
+            return "green";
+          }
+          else {
+            return "lightblue";
+          }
       }
-      else {
-        console.log(type(d.date) +"GREEEEEN");
+      else if( new Date(type(d.date)).getMonth() > new Date(incdate * 1000).getMonth() ) {
         return "green";
       }
+      else  {
+        return "lightblue";
+      }
+
     })
     .on("mouseover", function(d) {
        div.transition()
@@ -373,10 +379,6 @@ function newDraw(incdate) {
          .style("opacity", 0);
        });
 
-
-
-    // .on('mouseover', tip.show)
-    // .on('mouseout', tip.hide);
 
 
   function type(d) {
