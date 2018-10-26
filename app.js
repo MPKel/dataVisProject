@@ -14,7 +14,9 @@ $(document).ready(function(){
 
 
 
-let finalData = [];
+let drawArray = [
+  
+]
 
 
 
@@ -24,14 +26,6 @@ let activeIndex;
         setActiveIndex(this.value)
     });
 
-    let drawData = [
-          {
-              date: "",
-              tally: "",
-              entryId: ""
-          }
-
-      ];
 
 
 
@@ -78,22 +72,16 @@ function getStats() {
 
   //set max number of days to 6 weeks
   let numberDays = convertToDateTime(dateDiff * 1000) <= 42 ? convertToDateTime(dateDiff * 1000) : 42 ;
-  let drawArray = buildDateArray((sendDate * 1000), numberDays );
+  drawArray = buildDateArray((sendDate * 1000), numberDays );
   console.log(drawArray);
 
 
-  drawData = [
-        {
-            date: "",
-            tally: "",
-            entryId: "",
-            type: ""
-        }
-
-    ];
+  //arrays to hold userIDs so each user can only watch a video once, one array for each watch type
+  let userArrayWatches = [];
+  let userArrayHalfs = [];
 
 
-  // console.log(new Date(1536710400000));
+
 
 
 //use JavaScrip Set() to hold user_id # results. (sets only hold unique values, so no double counting anyone)
@@ -102,12 +90,6 @@ function getStats() {
   const sinceWatchesTotal = new Set();
   const sinceWatchesHalf = new Set();
 
-//
-// for (let item of set1) {
-//   console.log(set1.size);
-//   // expected output: 42
-//   // expected output: 13
-// }
 
 
 
@@ -158,57 +140,40 @@ function getStats() {
              if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                priorWatchesHalf.add(tempHolder[1]);
 
-               let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
-                 if(liveIndex == -1) {
-                   drawData.push({
-                       date: new Date(tempHolder[6] * 1000).toDateString(),
-                       tally: 1,
-                       entryId: tempHolder[1],
-                       type: "overhalf"
-                   });
+               let halfIndex = userArrayHalfs.indexOf(tempHolder[1]);
+                 if(halfIndex == -1) {
+                   let liveIndex = drawArray.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                   drawArray[liveIndex].halfTally += 1;
+                   userArrayHalfs.push(tempHolder[1]);
                  }
-                 else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "overhalf") ){
-                    drawData[liveIndex].tally += 1;
-                    drawData[liveIndex].entryId = tempHolder[1];
-                 }
+
 
 
              }
              if( tempHolder[3] != "start" && tempHolder[3] != "onwatch" &&  typeof(tempHolder[3]) === "string"){
                  priorWatchesTotal.add(tempHolder[1]);
 
-                 let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
-                   if(liveIndex == -1) {
-                     drawData.push({
-                         date: new Date(tempHolder[6] * 1000).toDateString(),
-                         tally: 1,
-                         entryId: tempHolder[1],
-                         type: "watch"
-                     });
-                   }
-                   else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "watch") ){
-                      drawData[liveIndex].tally += 1;
-                      drawData[liveIndex].entryId = tempHolder[1];
-                   }
+                 let watchesIndex = userArrayWatches.indexOf(tempHolder[1]);
+                   if(watchesIndex == -1) {
+                     let liveIndex = drawArray.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                     drawArray[liveIndex].watchTally += 1;
+                     userArrayWatches.push(tempHolder[1]);
+                  }
 
 
                }
              else if (tempHolder[3] > 0) {
                priorWatchesTotal.add(tempHolder[1]);
 
-               let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
-                 if(liveIndex == -1) {
-                   drawData.push({
-                       date: new Date(tempHolder[6] * 1000).toDateString(),
-                       tally: 1,
-                       entryId: tempHolder[1],
-                       type: "watch"
-                   });
-                 }
-                 else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "watch") ){
-                    drawData[liveIndex].tally += 1;
-                    drawData[liveIndex].entryId = tempHolder[1];
-                 }
+               let watchesIndex = userArrayWatches.indexOf(tempHolder[1]);
+                 if(watchesIndex == -1) {
+                   let liveIndex = drawArray.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                   drawArray[liveIndex].watchTally += 1;
+                   userArrayWatches.push(tempHolder[1]);
+                }
+
+
+
 
              }
 
@@ -218,18 +183,12 @@ function getStats() {
 
              if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                sinceWatchesHalf.add(tempHolder[1]);
-               let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
-                 if(liveIndex == -1) {
-                   drawData.push({
-                       date: new Date(tempHolder[6] * 1000).toDateString(),
-                       tally: 1,
-                       entryId: tempHolder[1],
-                       type: "overhalf"
-                   });
-                 }
-                 else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "overhalf") ){
-                    drawData[liveIndex].tally += 1;
-                    drawData[liveIndex].entryId = tempHolder[1];
+
+               let halfIndex = userArrayHalfs.indexOf(tempHolder[1]);
+                 if(halfIndex == -1) {
+                   let liveIndex = drawArray.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                   drawArray[liveIndex].halfTally += 1;
+                   userArrayHalfs.push(tempHolder[1]);
                  }
 
 
@@ -238,39 +197,26 @@ function getStats() {
              if( tempHolder[3] != "start" && tempHolder[3] != "onwatch" &&  typeof(tempHolder[3]) === "string"){
                  sinceWatchesTotal.add(tempHolder[1]);
 
-                 let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
-                   if(liveIndex == -1) {
-                     drawData.push({
-                         date: new Date(tempHolder[6] * 1000).toDateString(),
-                         tally: 1,
-                         entryId: tempHolder[1],
-                         type: "watch"
-                     });
-                   }
-                   else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "watch") ){
-                      drawData[liveIndex].tally += 1;
-                      drawData[liveIndex].entryId = tempHolder[1];
-                   }
+                 let watchesIndex = userArrayWatches.indexOf(tempHolder[1]);
+                   if(watchesIndex == -1) {
+                     let liveIndex = drawArray.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                     drawArray[liveIndex].watchTally += 1;
+                     userArrayWatches.push(tempHolder[1]);
+                  }
+
 
 
              }
             else if (tempHolder[3] > 0) {
               sinceWatchesTotal.add(tempHolder[1]);
 
-              let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
-                if(liveIndex == -1) {
-                  drawData.push({
-                      date: new Date(tempHolder[6] * 1000).toDateString(),
-                      tally: 1,
-                      entryId: tempHolder[1],
-                      type: "watch"
-                  });
-                }
-                else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "watch") ){
-                  console.log("enntntutththID " + drawData[liveIndex].entryId + "jhsdbfhjjhYAYAYAYA " + tempHolder[1]  + "lindex: " + liveIndex);
-                   drawData[liveIndex].tally += 1;
-                   drawData[liveIndex].entryId = tempHolder[1];
-                }
+              let watchesIndex = userArrayWatches.indexOf(tempHolder[1]);
+                if(watchesIndex == -1) {
+                  let liveIndex = drawArray.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                  drawArray[liveIndex].watchTally += 1;
+                  userArrayWatches.push(tempHolder[1]);
+               }
+
 
             }
 
@@ -284,16 +230,16 @@ function getStats() {
 
 
 //
-drawData.shift();
-
-drawData.forEach(function(d, index) {
-  d.count = index;
-});
-
-
+// drawData.shift();
+//
+// drawData.forEach(function(d, index) {
+//   d.count = index;
+// });
 
 
-console.log(drawData);
+
+
+// console.log(drawData);
      //Update numbers on the front end
      setPageView();
      d3.select("#uniqueSVG").empty();
@@ -363,8 +309,8 @@ function newDraw(incdate) {
 
 
 
-  x.domain([d3.min(drawData, function(d) { return new Date(type(d.date)); }), d3.max(drawData, function(d) { return new Date(type(d.date)); })]);
-  y.domain([0, d3.max(drawData, function(d) { return d.tally; })]);
+  x.domain([d3.min(drawArray, function(d) { return new Date(type(d.date)); }), d3.max(drawArray, function(d) { return new Date(type(d.date)); })]);
+  y.domain([0, d3.max(drawArray, function(d) { return d.tally; })]);
   //
 
 
@@ -391,7 +337,7 @@ function newDraw(incdate) {
     .style("text-anchor", "end");
 
   svg.selectAll(".full")
-    .data(drawData)
+    .data(drawArray)
     .enter().append("rect")
     .attr("class", "full")
     .attr("x", function(d) {return x( new Date(type(d.date)) ) }  )
@@ -402,7 +348,7 @@ function newDraw(incdate) {
        }
        else
 
-       return (width/drawData.length) -10
+       return (width/drawArray.length) -10
      })
     // .attr("width", function(d) { return d.bandwidth()  })
     .attr('y', function(d) { return y(d.tally); } )
