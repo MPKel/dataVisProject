@@ -14,9 +14,16 @@ $(document).ready(function(){
 
 
 
+
+
 let drawArray = [
-  
-]
+      {
+          date: "",
+          watchTally: 0,
+          halfTally: 0
+      }
+
+  ];
 
 
 
@@ -230,7 +237,7 @@ function getStats() {
 
 
 //
-// drawData.shift();
+drawArray.shift();
 //
 // drawData.forEach(function(d, index) {
 //   d.count = index;
@@ -310,7 +317,7 @@ function newDraw(incdate) {
 
 
   x.domain([d3.min(drawArray, function(d) { return new Date(type(d.date)); }), d3.max(drawArray, function(d) { return new Date(type(d.date)); })]);
-  y.domain([0, d3.max(drawArray, function(d) { return d.tally; })]);
+  y.domain([0, d3.max(drawArray, function(d) { return d.watchTally; })]);
   //
 
 
@@ -342,19 +349,12 @@ function newDraw(incdate) {
     .attr("class", "full")
     .attr("x", function(d) {return x( new Date(type(d.date)) ) }  )
     .attr("shape-rendering", "auto")
-    .attr( "width",  function(d) {
-       if (d.type==="half") {
-         return 20;
-       }
-       else
-
-       return (width/drawArray.length) -10
-     })
+    .attr( "width",  (width/drawArray.length))
     // .attr("width", function(d) { return d.bandwidth()  })
-    .attr('y', function(d) { return y(d.tally); } )
-    .attr('height', function(d,i){ return height - y(d.tally); })
-    // .attr("y", function(d) { return y(d.tally) + y(d.tally) - height;})
-    // .attr("height", function(d) { return height - y(d.tally); })
+    .attr('y', function(d) { return y(d.watchTally); } )
+    .attr('height', function(d,i){ return height - y(d.watchTally); })
+    // .attr("y", function(d) { return y(d.watchTally) + y(d.watchTally) - height;})
+    // .attr("height", function(d) { return height - y(d.watchTally); })
     .attr("style", "outline: thin solid black;")
     .attr("fill", function(d) {
       if( new Date(type(d.date)).getMonth() === new Date(incdate * 1000).getMonth() ) {
@@ -376,7 +376,7 @@ function newDraw(incdate) {
        toolIt.transition()
          .duration(200)
          .style("opacity", .9);
-       toolIt.html(d.date + "<br/>" + "Watches: " + d.tally + "<br/>" + "Days Before/After: " + convertToDateTime(new Date(type(d.date)) - new Date(incdate * 1000)) )
+       toolIt.html(d.date + "<br/>" + "Watches: " + d.watchTally + "<br/>" + "Days Before/After: " + convertToDateTime(new Date(type(d.date)) - new Date(incdate * 1000)) )
          .style("left", (d3.event.pageX) + "px")
          .style("top", (d3.event.pageY - 28) + "px");
        })
