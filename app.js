@@ -36,6 +36,25 @@ let activeIndex;
 
 
 
+var buildDateArray = function(send, dif) {
+
+    var startDate = new Date().setDate(new Date(send).getDate() - dif);
+    var endDate = new Date().setDate(new Date(send).getDate() + dif);
+
+
+    var arr = new Array();
+    var dt = new Date(startDate);
+    while (dt <= endDate) {
+        arr.push({  date: new Date(dt).toDateString(),
+                    watchTally: 0,
+                    halfTally: 0,
+                   });
+        dt.setDate(dt.getDate() + 1);
+    }
+    return arr;
+}
+
+
 
 
 function convertToDateTime(num) {
@@ -50,25 +69,25 @@ function convertToDateTime(num) {
 
 }
 
-let dougdata = ["Thu Oct 15 2018", "Wed Oct 17 2018", "Thu Oct 18 2018"];
-console.log("loolooooo" + convertToDateTime( (1539882079 - 1539677048) * 1000 ) );
-console.log( dougdata.indexOf(new Date(1539782043 * 1000).toDateString())       );
-console.log(new Date(1536765928 * 1000));
-
-
-
 
 function getStats() {
   let today = Math.floor(Date.now()/1000);
   let sendDate = emailData[activeIndex].sendDate;
+
   let dateDiff = today - sendDate;
+
   //set max number of days to 6 weeks
   let numberDays = convertToDateTime(dateDiff * 1000) <= 42 ? convertToDateTime(dateDiff * 1000) : 42 ;
+  let drawArray = buildDateArray((sendDate * 1000), numberDays );
+  console.log(drawArray);
+
+
   drawData = [
         {
             date: "",
             tally: "",
-            entryId: ""
+            entryId: "",
+            type: ""
         }
 
     ];
@@ -121,6 +140,7 @@ function getStats() {
      //container for input split by new lines
      holder = data.split("\n");
 
+
      // loop through each individual line of stats
      for(let i = 0; i < holder.length-1; i++) {
        let tempHolder = holder[i].split("\t");
@@ -137,6 +157,22 @@ function getStats() {
          if((tempHolder[6] < sendDate) && (convertToDateTime( (sendDate - tempHolder[6]) * 1000 ) <= numberDays)) {
              if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                priorWatchesHalf.add(tempHolder[1]);
+
+               let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                 if(liveIndex == -1) {
+                   drawData.push({
+                       date: new Date(tempHolder[6] * 1000).toDateString(),
+                       tally: 1,
+                       entryId: tempHolder[1],
+                       type: "overhalf"
+                   });
+                 }
+                 else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "overhalf") ){
+                    drawData[liveIndex].tally += 1;
+                    drawData[liveIndex].entryId = tempHolder[1];
+                 }
+
+
              }
              if( tempHolder[3] != "start" && tempHolder[3] != "onwatch" &&  typeof(tempHolder[3]) === "string"){
                  priorWatchesTotal.add(tempHolder[1]);
@@ -146,10 +182,11 @@ function getStats() {
                      drawData.push({
                          date: new Date(tempHolder[6] * 1000).toDateString(),
                          tally: 1,
-                         entryId: tempHolder[1]
+                         entryId: tempHolder[1],
+                         type: "watch"
                      });
                    }
-                   else if( (drawData[liveIndex].entryId !== tempHolder[1]) ){
+                   else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "watch") ){
                       drawData[liveIndex].tally += 1;
                       drawData[liveIndex].entryId = tempHolder[1];
                    }
@@ -164,10 +201,11 @@ function getStats() {
                    drawData.push({
                        date: new Date(tempHolder[6] * 1000).toDateString(),
                        tally: 1,
-                       entryId: tempHolder[1]
+                       entryId: tempHolder[1],
+                       type: "watch"
                    });
                  }
-                 else if( (drawData[liveIndex].entryId !== tempHolder[1]) ){
+                 else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "watch") ){
                     drawData[liveIndex].tally += 1;
                     drawData[liveIndex].entryId = tempHolder[1];
                  }
@@ -180,6 +218,21 @@ function getStats() {
 
              if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                sinceWatchesHalf.add(tempHolder[1]);
+               let liveIndex = drawData.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
+                 if(liveIndex == -1) {
+                   drawData.push({
+                       date: new Date(tempHolder[6] * 1000).toDateString(),
+                       tally: 1,
+                       entryId: tempHolder[1],
+                       type: "overhalf"
+                   });
+                 }
+                 else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "overhalf") ){
+                    drawData[liveIndex].tally += 1;
+                    drawData[liveIndex].entryId = tempHolder[1];
+                 }
+
+
              }
 
              if( tempHolder[3] != "start" && tempHolder[3] != "onwatch" &&  typeof(tempHolder[3]) === "string"){
@@ -190,10 +243,11 @@ function getStats() {
                      drawData.push({
                          date: new Date(tempHolder[6] * 1000).toDateString(),
                          tally: 1,
-                         entryId: tempHolder[1]
+                         entryId: tempHolder[1],
+                         type: "watch"
                      });
                    }
-                   else if( (drawData[liveIndex].entryId !== tempHolder[1]) ){
+                   else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "watch") ){
                       drawData[liveIndex].tally += 1;
                       drawData[liveIndex].entryId = tempHolder[1];
                    }
@@ -208,10 +262,11 @@ function getStats() {
                   drawData.push({
                       date: new Date(tempHolder[6] * 1000).toDateString(),
                       tally: 1,
-                      entryId: tempHolder[1]
+                      entryId: tempHolder[1],
+                      type: "watch"
                   });
                 }
-                else if( (drawData[liveIndex].entryId !== tempHolder[1])  ){
+                else if( (drawData[liveIndex].entryId !== tempHolder[1]) && (drawData[liveIndex].type === "watch") ){
                   console.log("enntntutththID " + drawData[liveIndex].entryId + "jhsdbfhjjhYAYAYAYA " + tempHolder[1]  + "lindex: " + liveIndex);
                    drawData[liveIndex].tally += 1;
                    drawData[liveIndex].entryId = tempHolder[1];
@@ -286,7 +341,7 @@ function newDraw(incdate) {
   var y = d3.scaleLinear()
       .range([height, 0]);
 
-  var xAxis = d3.axisBottom(x).ticks(10);
+  var xAxis = d3.axisBottom(x).tickFormat(d3.timeFormat("%m/%d"));
 
   var yAxis = d3.axisLeft(y)
       .ticks(5);
@@ -309,13 +364,13 @@ function newDraw(incdate) {
 
 
   x.domain([d3.min(drawData, function(d) { return new Date(type(d.date)); }), d3.max(drawData, function(d) { return new Date(type(d.date)); })]);
-  y.domain([d3.min(drawData, function(d) { return d.tally > 1 ? d.tally : 0; }), d3.max(drawData, function(d) { return d.tally; })]);
+  y.domain([0, d3.max(drawData, function(d) { return d.tally; })]);
   //
 
 
 
 
-  var div = d3.select("body").append("div")
+  var toolIt = d3.select("body").append("div")
       .attr("class", "tooltip")
       .style("opacity", 0);
 
@@ -335,13 +390,20 @@ function newDraw(incdate) {
     .attr("dy", ".71em")
     .style("text-anchor", "end");
 
-  svg.selectAll(".bar")
+  svg.selectAll(".full")
     .data(drawData)
     .enter().append("rect")
-    .attr("class", "bar")
+    .attr("class", "full")
     .attr("x", function(d) {return x( new Date(type(d.date)) ) }  )
     .attr("shape-rendering", "auto")
-    .attr( "width",  (width/drawData.length) -10 )
+    .attr( "width",  function(d) {
+       if (d.type==="half") {
+         return 20;
+       }
+       else
+
+       return (width/drawData.length) -10
+     })
     // .attr("width", function(d) { return d.bandwidth()  })
     .attr('y', function(d) { return y(d.tally); } )
     .attr('height', function(d,i){ return height - y(d.tally); })
@@ -363,22 +425,25 @@ function newDraw(incdate) {
       else  {
         return "lightblue";
       }
-
     })
     .on("mouseover", function(d) {
-       div.transition()
+       toolIt.transition()
          .duration(200)
          .style("opacity", .9);
-       div.html(d.date + "<br/>" + "Watches: " + d.tally + "<br/>" + "Days Before/After: " + convertToDateTime(new Date(type(d.date)) - new Date(incdate * 1000)) )
+       toolIt.html(d.date + "<br/>" + "Watches: " + d.tally + "<br/>" + "Days Before/After: " + convertToDateTime(new Date(type(d.date)) - new Date(incdate * 1000)) )
          .style("left", (d3.event.pageX) + "px")
          .style("top", (d3.event.pageY - 28) + "px");
        })
      .on("mouseout", function(d) {
-       div.transition()
+       toolIt.transition()
          .duration(500)
          .style("opacity", 0);
        });
 
+
+
+    // .on('mouseover', tip.show)
+    // .on('mouseout', tip.hide);
 
 
   function type(d) {
