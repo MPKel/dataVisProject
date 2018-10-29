@@ -39,8 +39,8 @@ let activeIndex;
 
 var buildDateArray = function(send, dif) {
 
-    var startDate = new Date().setDate(new Date(send).getDate() - dif);
-    var endDate = new Date().setDate(new Date(send).getDate() + dif);
+    var startDate = new Date(send).setDate(new Date(send).getDate() - dif);
+    var endDate = new Date(send).setDate(new Date(send).getDate() + dif);
 
 
     var arr = new Array();
