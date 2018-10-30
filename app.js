@@ -75,27 +75,37 @@ var buildDateArray = function(send, dif) {
 
 
 
-function convertToDateTime(num) {
-  if(num % 2 != 0) {
-    num * -1
-    return  Math.round(num / 86400000);
-  }
-  else{
-    return  Math.round(num / 86400000);
-  }
+const _MS_PER_DAY = 1000 * 60 * 60 * 24;
 
 
+//function to find the difference between dates in number of days
+// a and b are javascript Date objects
+function dateDiffInDays(a, b) {
+  // Discard the time and time-zone information.
+  const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+  const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+
+  return Math.abs(Math.floor((utc2 - utc1) / _MS_PER_DAY));
 }
+
+
+
+
+
+
 
 
 function getStats() {
   let today = Math.floor(Date.now()/1000);
   let sendDate = emailData[activeIndex].sendDate;
 
-  let dateDiff = today - sendDate;
+  let dateDiff = dateDiffInDays( new Date(Date.now()), new Date(sendDate * 1000) );
+  console.log(dateDiff);
+
+
 
   //set max number of days to 6 weeks
-  let numberDays = convertToDateTime(dateDiff * 1000) <= 42 ? convertToDateTime(dateDiff * 1000) : 42 ;
+  let numberDays = dateDiff <= 42 ? dateDiff : 42;
   drawArray = buildDateArray((sendDate * 1000), numberDays );
   console.log(drawArray);
 
@@ -160,7 +170,7 @@ function getStats() {
        }
 
          //if the watchDate was BEFORE the SendDate AND the sendDate minus the watchDate is less than or equal to the difference between today and the sendDate
-         if((tempHolder[6] < sendDate) && (convertToDateTime( (sendDate - tempHolder[6]) * 1000 ) <= numberDays)) {
+         if((tempHolder[6] < sendDate) && ( dateDiffInDays( new Date(sendDate * 1000), new Date(tempHolder[6] * 1000) ) <= numberDays )) {
              if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                priorWatchesHalf.add(tempHolder[1]);
 
@@ -203,7 +213,7 @@ function getStats() {
 
          }
          //if the watchDate was AFTER the SendDate AND the watchDate minus the sendDate is less than or equal to the difference between today and the sendDate
-         else if( (tempHolder[6] >= sendDate) && (convertToDateTime( (tempHolder[6] - sendDate) * 1000) <= numberDays))   {
+         else if( (tempHolder[6] >= sendDate) && (dateDiffInDays( new Date(tempHolder[6] * 1000), new Date(sendDate * 1000))     <= numberDays))   {
 
              if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                sinceWatchesHalf.add(tempHolder[1]);
@@ -393,7 +403,7 @@ function newDraw(incdate) {
        toolIt.transition()
          .duration(200)
          .style("opacity", .9);
-       toolIt.html(d.date + "<br/>" + "Watches: " + d.watchTally + "<br/>" + "Days Before/After: " + convertToDateTime(new Date(type(d.date)) - new Date(incdate * 1000)) )
+       toolIt.html(d.date + "<br/>" + "Watches: " + d.watchTally + "<br/>" + "Days Before/After: " + dateDiffInDays( new Date(type(d.date)), new Date(incdate * 1000)) )
          .style("left", (d3.event.pageX) + "px")
          .style("top", (d3.event.pageY - 28) + "px");
        })
