@@ -1,0 +1,1116 @@
+189706	4	4697	onwatch	paying	PHP_js	1449682603	75.150.120.245	Chrome Generic : MacOSX
+189707	4	4697	endat0	paying	js	1449682607	75.150.120.245	Chrome Generic : MacOSX
+189809	4191	4697	onwatch	paying	PHP_js	1449690628	50.183.60.118	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+189812	4191	4697	start	paying	js	1449690781	50.183.60.118	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+189832	4191	4697	endat0	paying	js	1449692184	50.183.60.118	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+189833	4191	4697	onwatch	paying	PHP_js	1449692184	50.183.60.118	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+189834	4191	4697	start	paying	js	1449692188	50.183.60.118	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+189948	14734	4697	onwatch	trial	PHP_js	1449764607	208.84.233.253	Chrome Generic : MacOSX
+189949	14734	4697	endat0	trial	js	1449764640	208.84.233.253	Chrome Generic : MacOSX
+190133	6439	4697	onwatch	paying	PHP_js	1449847248	151.151.16.25	Chrome Generic : Win7
+190134	6439	4697	start	paying	js	1449847255	151.151.16.25	Chrome Generic : Win7
+190139	6439	4697	half	paying	js	1449850077	151.151.16.25	Chrome Generic : Win7
+190265	4191	4697	onwatch	paying	PHP_js	1449868743	50.183.60.118	Chrome Generic : Win7
+190267	4191	4697	start	paying	js	1449868783	50.183.60.118	Chrome Generic : Win7
+190268	4191	4697	endat39	paying	js	1449868803	50.183.60.118	Chrome Generic : Win7
+190269	4191	4697	onwatch	paying	PHP_js	1449868808	50.183.60.118	Chrome Generic : Win7
+190270	4191	4697	endat0	paying	js	1449868816	50.183.60.118	Chrome Generic : Win7
+190271	4191	4697	onwatch	paying	PHP_js	1449868816	50.183.60.118	Chrome Generic : Win7
+190272	4191	4697	start	paying	js	1449868822	50.183.60.118	Chrome Generic : Win7
+190279	4191	4697	half	paying	js	1449869630	50.183.60.118	Chrome Generic : Win7
+190297	14759	4697	onwatch	trial	PHP_js	1449872089	23.233.85.235	Chrome Generic : Win7
+190298	14759	4697	endat0	trial	js	1449872101	23.233.85.235	Chrome Generic : Win7
+190299	14759	4697	endat0	trial	js	1449872132	23.233.85.235	Chrome Generic : Win7
+190304	14759	4697	endat0	trial	js	1449874466	23.233.85.235	Chrome Generic : Win7
+190314	4191	4697	finished	paying	js	1449876712	50.183.60.118	Chrome Generic : Win7
+190341	7462	4697	onwatch	paying	PHP_js	1449939735	98.179.25.59	Chrome Generic : MacOSX
+190359	9811	4697	onwatch	paying	PHP_js	1449951374	80.160.148.82	Chrome Generic : Win7
+190360	9811	4697	start	paying	js	1449951387	80.160.148.82	Chrome Generic : Win7
+190373	9811	4697	half	paying	js	1449958475	80.160.148.82	Chrome Generic : Win7
+190375	9811	4697	endat99	paying	js	1449961917	80.160.148.82	Chrome Generic : Win7
+190465	14217	4697	onwatch	paying	PHP_js	1450081429	194.116.240.25	Chrome Generic : MacOSX
+190466	14217	4697	start	paying	js	1450081435	194.116.240.25	Chrome Generic : MacOSX
+190467	14217	4697	endat9	paying	js	1450082180	194.116.240.25	Chrome Generic : MacOSX
+190468	14217	4697	onwatch	paying	PHP_js	1450082828	194.116.240.25	Chrome Generic : MacOSX
+190496	14784	4697	onwatch	paying	PHP_js	1450099825	174.46.3.102	Chrome Generic : MacOSX
+190497	14784	4697	start	paying	js	1450099830	174.46.3.102	Chrome Generic : MacOSX
+190499	14784	4697	endat18	paying	js	1450101179	174.46.3.102	Chrome Generic : MacOSX
+190592	8124	4697	onwatch	paying	PHP_js	1450130419	104.129.204.106	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+190593	8124	4697	start	paying	js	1450130425	104.129.204.106	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+190601	8124	4697	endat34	paying	js	1450132136	104.129.204.106	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+190914	14380	4697	onwatch	paying	PHP_js	1450308828	85.51.84.174	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+190915	14380	4697	start	paying	js	1450308839	85.51.84.174	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+190917	14380	4697	half	paying	js	1450311947	85.51.84.174	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+190918	14380	4697	endat52	paying	js	1450311988	85.51.84.174	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+191139	14716	4697	onwatch	paying	PHP_js	1450450448	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191140	14716	4697	start	paying	js	1450450457	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191146	14716	4697	half	paying	js	1450452953	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191149	14716	4697	endat61	paying	js	1450453975	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191150	14716	4697	onwatch	paying	PHP_js	1450453977	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191152	14716	4697	start	paying	js	1450454287	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191170	14716	4697	half	paying	js	1450456188	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191172	14716	4697	endat67	paying	js	1450456374	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191173	14716	4697	onwatch	paying	PHP_js	1450456375	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191174	14716	4697	half	paying	js	1450456402	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191175	14716	4697	start	paying	js	1450456402	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191178	14716	4697	endat89	paying	js	1450457574	4.35.204.165	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+191392	14784	4697	onwatch	paying	PHP_js	1450715231	24.242.81.159	Chrome Generic : MacOSX
+191394	14784	4697	start	paying	js	1450715430	24.242.81.159	Chrome Generic : MacOSX
+191395	14784	4697	endat0	paying	js	1450715432	24.242.81.159	Chrome Generic : MacOSX
+191396	14784	4697	onwatch	paying	PHP_js	1450715432	24.242.81.159	Chrome Generic : MacOSX
+191397	14784	4697	start	paying	js	1450715452	24.242.81.159	Chrome Generic : MacOSX
+191425	14784	4697	endat46	paying	js	1450718878	24.242.81.159	Chrome Generic : MacOSX
+191583	8124	4697	onwatch	paying	PHP_js	1450814548	104.129.204.64	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+191584	8124	4697	start	paying	js	1450814553	104.129.204.64	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+191596	8124	4697	endat49	paying	js	1450815319	104.129.204.64	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+191640	4531	4697	onwatch	paying	PHP_js	1450877351	174.46.101.2	Chrome Generic : MacOSX
+191641	4531	4697	start	paying	js	1450877360	174.46.101.2	Chrome Generic : MacOSX
+191646	4531	4697	half	paying	js	1450880698	174.46.101.2	Chrome Generic : MacOSX
+191654	4531	4697	finished	paying	js	1450883668	174.46.101.2	Chrome Generic : MacOSX
+191661	4531	4697	endat103	paying	js	1450886252	174.46.101.2	Chrome Generic : MacOSX
+191721	14364	4697	onwatch	paying	PHP_js	1450913764	104.189.9.6	Chrome Generic : MacOSX
+191722	14364	4697	start	paying	js	1450913774	104.189.9.6	Chrome Generic : MacOSX
+191729	14364	4697	endat32	paying	js	1450915142	104.189.9.6	Chrome Generic : MacOSX
+191731	14364	4697	onwatch	paying	PHP_js	1450918900	104.189.9.6	Chrome Generic : MacOSX
+191733	14364	4697	endat0	paying	js	1450920104	104.189.9.6	Chrome Generic : MacOSX
+192583	8124	4697	onwatch	paying	PHP_js	1451594950	104.129.204.64	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+192584	8124	4697	start	paying	js	1451594955	104.129.204.64	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+192585	8124	4697	half	paying	js	1451595026	104.129.204.64	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+192590	8124	4697	finished	paying	js	1451597517	104.129.204.64	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+192591	8124	4697	endat100	paying	js	1451597520	104.129.204.64	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+192813	4021	4697	onwatch	paying	PHP_js	1451904944	194.239.188.2	Chrome Generic : Win7
+192814	4021	4697	endat0	paying	js	1451904968	194.239.188.2	Chrome Generic : Win7
+192852	11607	4697	onwatch	paying	PHP_js	1451921045	183.83.83.47	Chrome Generic : Win7
+192853	11607	4697	start	paying	js	1451921052	183.83.83.47	Chrome Generic : Win7
+192854	11607	4697	endat11	paying	js	1451921632	183.83.83.47	Chrome Generic : Win7
+193014	14905	4697	onwatch	paying	PHP_js	1451961120	96.255.14.149	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+193015	14905	4697	start	paying	js	1451961143	96.255.14.149	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+193023	14905	4697	half	paying	js	1451963878	96.255.14.149	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+193024	14905	4697	endat53	paying	js	1451964114	96.255.14.149	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+193025	14905	4697	onwatch	paying	PHP_js	1451964115	96.255.14.149	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+193027	14905	4697	start	paying	js	1451965077	96.255.14.149	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+193028	14905	4697	half	paying	js	1451965077	96.255.14.149	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+193029	14905	4697	endat103	paying	js	1451966622	96.255.14.149	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+193060	12901	4697	onwatch	paying	PHP_js	1451999925	109.70.54.216	Chrome Generic : MacOSX
+193061	12901	4697	start	paying	js	1451999959	109.70.54.216	Chrome Generic : MacOSX
+193065	12901	4697	endat1	paying	js	1452000026	109.70.54.216	Chrome Generic : MacOSX
+193135	14915	4697	onwatch	trial	PHP_js	1452015393	165.2.72.10	Chrome Generic : Win7
+193140	14915	4697	start	trial	js	1452015981	165.2.72.10	Chrome Generic : Win7
+193144	14915	4697	endat21	trial	js	1452017061	165.2.72.10	Chrome Generic : Win7
+193396	14863	4697	onwatch	paying	PHP_js	1452108626	209.133.66.6	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+193397	14863	4697	start	paying	js	1452108635	209.133.66.6	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+193406	14863	4697	half	paying	js	1452111649	209.133.66.6	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+193409	14863	4697	endat78	paying	js	1452113674	209.133.66.6	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+193649	14940	4697	onwatch	trial	PHP_js	1452192515	162.223.35.126	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+193650	14940	4697	endat0	trial	js	1452192571	162.223.35.126	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+193833	14466	4697	onwatch	paying	PHP_js	1452270059	71.8.126.11	Safari Generic : MacOSX : js
+193834	14466	4697	start	paying	js	1452270067	71.8.126.11	Safari Generic : MacOSX : js
+193911	14466	4697	onwatch	paying	PHP_js	1452286441	71.8.126.11	Safari Generic : MacOSX : js
+193912	14466	4697	start	paying	js	1452286447	71.8.126.11	Safari Generic : MacOSX : js
+193926	14466	4697	half	paying	js	1452292550	71.8.126.11	Safari Generic : MacOSX : js
+194075	5672	4697	onwatch	paying	PHP_js	1452486161	73.170.148.155	Chrome Generic : MacOSX
+194076	5672	4697	start	paying	js	1452486170	73.170.148.155	Chrome Generic : MacOSX
+194112	11046	4697	onwatch	paying	PHP_js	1452513460	74.215.211.220	Chrome Generic : MacOSX
+194113	11046	4697	start	paying	js	1452513470	74.215.211.220	Chrome Generic : MacOSX
+194117	14390	4697	onwatch	paying	PHP_js	1452519510	65.219.193.50	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0
+194118	14390	4697	start	paying	js	1452519528	65.219.193.50	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0
+194161	11607	4697	onwatch	paying	PHP_js	1452524355	202.65.134.89	Chrome Generic : MacOSX
+194162	11607	4697	start	paying	js	1452524362	202.65.134.89	Chrome Generic : MacOSX
+194164	11607	4697	endat2	paying	js	1452525138	202.65.134.89	Chrome Generic : MacOSX
+194165	14390	4697	endat23	paying	js	1452525284	65.219.193.50	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0
+194181	14490	4697	onwatch	paying	PHP_js	1452532345	128.83.182.3	Chrome Generic : MacOSX
+194182	14490	4697	start	paying	js	1452532354	128.83.182.3	Chrome Generic : MacOSX
+194189	14490	4697	half	paying	js	1452534928	128.83.182.3	Chrome Generic : MacOSX
+194192	14490	4697	finished	paying	js	1452537419	128.83.182.3	Chrome Generic : MacOSX
+194193	14490	4697	endat100	paying	js	1452537423	128.83.182.3	Chrome Generic : MacOSX
+194289	13898	4697	onwatch	paying	PHP_js	1452560308	99.226.221.252	Safari Generic : MacOSX : js
+194290	13898	4697	start	paying	js	1452560326	99.226.221.252	Safari Generic : MacOSX : js
+194296	13898	4697	half	paying	js	1452563403	99.226.221.252	Safari Generic : MacOSX : js
+194343	11046	4697	half	paying	js	1452603097	74.215.211.220	Chrome Generic : MacOSX
+194384	11607	4697	onwatch	paying	PHP_js	1452612478	123.176.44.227	Safari Generic : MacOSX : js
+194385	11607	4697	start	paying	js	1452612486	123.176.44.227	Safari Generic : MacOSX : js
+194613	6372	4697	onwatch	paying	PHP_js	1452695972	107.77.83.117	Safari Generic : MacOSX : js
+194614	6372	4697	start	paying	js	1452695985	107.77.83.117	Safari Generic : MacOSX : js
+194679	14589	4697	onwatch	paying	PHP_js	1452714345	205.167.78.7	Chrome Generic : Win7
+194683	14589	4697	start	paying	js	1452715918	205.167.78.7	Chrome Generic : Win7
+194684	14589	4697	endat0	paying	js	1452715964	205.167.78.7	Chrome Generic : Win7
+194784	14634	4697	onwatch	paying	PHP_js	1452775614	95.245.239.183	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+194785	14634	4697	start	paying	js	1452775621	95.245.239.183	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+194791	14634	4697	half	paying	js	1452778472	95.245.239.183	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+194794	14634	4697	endat101	paying	js	1452781521	95.245.239.183	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+194802	6576	4697	onwatch	paying	PHP_js	1452783869	205.175.240.246	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+194803	6576	4697	start	paying	js	1452783878	205.175.240.246	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+194805	6576	4697	endat15	paying	js	1452784694	205.175.240.246	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+195128	11607	4697	onwatch	paying	PHP_js	1452886262	183.83.83.47	Safari Generic : MacOSX : js
+195129	11607	4697	start	paying	js	1452886269	183.83.83.47	Safari Generic : MacOSX : js
+195223	11046	4697	endat97	paying	js	1452951780	74.215.211.220	Chrome Generic : MacOSX
+195247	11607	4697	onwatch	paying	PHP_js	1452965618	183.83.83.47	Safari Generic : MacOSX : js
+195248	11607	4697	start	paying	js	1452965628	183.83.83.47	Safari Generic : MacOSX : js
+195249	11607	4697	half	paying	js	1452967019	183.83.83.47	Safari Generic : MacOSX : js
+195297	11607	4697	start	paying	js	1453001201	183.83.83.47	Safari Generic : MacOSX : js
+195309	11607	4697	onwatch	paying	PHP_js	1453027811	183.83.83.47	Safari Generic : MacOSX : js
+195310	11607	4697	start	paying	js	1453027817	183.83.83.47	Safari Generic : MacOSX : js
+195346	11607	4697	onwatch	paying	PHP_js	1453054774	183.83.83.47	Safari Generic : MacOSX : js
+195347	11607	4697	start	paying	js	1453054789	183.83.83.47	Safari Generic : MacOSX : js
+195348	11607	4697	half	paying	js	1453055217	183.83.83.47	Safari Generic : MacOSX : js
+195355	11607	4697	start	paying	js	1453056651	183.83.83.47	Safari Generic : MacOSX : js
+195356	11607	4697	half	paying	js	1453057286	183.83.83.47	Safari Generic : MacOSX : js
+195357	11607	4697	start	paying	js	1453057354	183.83.83.47	Safari Generic : MacOSX : js
+195566	8150	4697	onwatch	paying	PHP_js	1453149041	71.198.21.133	Chrome Generic : MacOSX
+195567	8150	4697	start	paying	js	1453149047	71.198.21.133	Chrome Generic : MacOSX
+195573	8150	4697	endat17	paying	js	1453149970	71.198.21.133	Chrome Generic : MacOSX
+195786	15001	4697	onwatch	paying	PHP_js	1453229060	82.4.111.70	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2450.0 Iron/46.0.2450.0 Safari/537.36
+195800	15001	4697	endat0	paying	js	1453230162	82.4.111.70	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2450.0 Iron/46.0.2450.0 Safari/537.36
+195930	14608	4697	onwatch	trial	PHP_js	1453297698	204.154.44.34	Chrome Generic : Win7
+195931	14608	4697	start	trial	js	1453297705	204.154.44.34	Chrome Generic : Win7
+195934	14608	4697	endat17	trial	js	1453298577	204.154.44.34	Chrome Generic : Win7
+195935	14608	4697	onwatch	trial	PHP_js	1453298592	204.154.44.34	Chrome Generic : Win7
+195936	14608	4697	start	trial	js	1453298596	204.154.44.34	Chrome Generic : Win7
+195941	14608	4697	endat50	trial	js	1453300131	204.154.44.34	Chrome Generic : Win7
+195942	14608	4697	half	trial	js	1453300132	204.154.44.34	Chrome Generic : Win7
+196117	14813	4697	onwatch	paying	PHP_js	1453358336	79.136.64.219	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+196118	14813	4697	start	paying	js	1453358342	79.136.64.219	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:43.0) Gecko/20100101 Firefox/43.0
+196246	12743	4697	onwatch	paying	PHP_js	1453406234	129.137.215.255	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0
+196318	11607	4697	half	paying	js	1453428206	183.83.83.47	Safari Generic : MacOSX : js
+196555	14984	4697	onwatch	paying	PHP_js	1453643618	87.115.104.122	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
+196556	14984	4697	start	paying	js	1453643641	87.115.104.122	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
+196557	14984	4697	endat1	paying	js	1453643733	87.115.104.122	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
+196558	14984	4697	onwatch	paying	PHP_js	1453643734	87.115.104.122	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
+196559	14984	4697	endat2	paying	js	1453643736	87.115.104.122	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
+196560	14984	4697	onwatch	paying	PHP_js	1453643737	87.115.104.122	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
+196561	14984	4697	start	paying	js	1453643783	87.115.104.122	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
+196563	14984	4697	half	paying	js	1453645842	87.115.104.122	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0
+196588	11046	4697	onwatch	paying	PHP_js	1453659751	98.204.30.189	Chrome Generic : MacOSX
+196589	11046	4697	start	paying	js	1453659760	98.204.30.189	Chrome Generic : MacOSX
+196595	11046	4697	half	paying	js	1453661496	98.204.30.189	Chrome Generic : MacOSX
+196650	4038	4697	onwatch	paying	PHP_js	1453706298	64.104.124.40	Safari Generic : MacOSX : js
+196651	4038	4697	start	paying	js	1453706308	64.104.124.40	Safari Generic : MacOSX : js
+196653	4038	4697	endat6	paying	js	1453707538	64.104.124.40	Safari Generic : MacOSX : js
+196836	15073	4697	endat0	trial	js	1453758182	24.201.48.123	Chrome Generic : MacOSX
+196961	15066	4697	onwatch	paying	PHP_js	1453808383	117.222.142.80	Mozilla/5.0 (Windows NT 6.3; WOW64; rv:32.0) Gecko/20100101 Firefox/32.0
+196962	15066	4697	endat0	paying	js	1453808552	117.222.142.80	Mozilla/5.0 (Windows NT 6.3; WOW64; rv:32.0) Gecko/20100101 Firefox/32.0
+197001	14442	4697	onwatch	paying	PHP_js	1453820734	74.75.227.159	Chrome Generic : MacOSX
+197002	14442	4697	start	paying	js	1453820747	74.75.227.159	Chrome Generic : MacOSX
+197016	14442	4697	endat1	paying	js	1453823804	74.75.227.159	Chrome Generic : MacOSX
+197079	13378	4697	onwatch	trial	PHP_js	1453834210	97.75.178.52	Chrome Generic : MacOSX
+197080	13378	4697	start	trial	js	1453834216	97.75.178.52	Chrome Generic : MacOSX
+197084	13378	4697	half	trial	js	1453835914	97.75.178.52	Chrome Generic : MacOSX
+197089	13378	4697	endat88	trial	js	1453837991	97.75.178.52	Chrome Generic : MacOSX
+197232	6518	4697	onwatch	paying	PHP_js	1453917103	90.41.45.124	Chrome Generic : MacOSX
+197233	6518	4697	endat0	paying	js	1453917162	90.41.45.124	Chrome Generic : MacOSX
+197812	14099	4697	onwatch	paying	PHP_js	1454177292	198.217.118.135	Chrome Generic : MacOSX
+197813	14099	4697	endat0	paying	js	1454177296	198.217.118.135	Chrome Generic : MacOSX
+197896	7908	4697	onwatch	paying	PHP_js	1454212560	70.190.231.229	Safari Generic : MacOSX : js
+197897	7908	4697	start	paying	js	1454212575	70.190.231.229	Safari Generic : MacOSX : js
+197901	7908	4697	half	paying	js	1454215791	70.190.231.229	Safari Generic : MacOSX : js
+197905	5399	4697	onwatch	paying	PHP_js	1454243433	107.77.76.46	Safari Generic : MacOSX : js
+198009	4038	4697	onwatch	paying	PHP_js	1454310288	64.104.124.41	Safari Generic : MacOSX : js
+198010	4038	4697	start	paying	js	1454310538	64.104.124.41	Safari Generic : MacOSX : js
+198011	4038	4697	endat0	paying	js	1454310677	64.104.124.41	Safari Generic : MacOSX : js
+198012	4038	4697	onwatch	paying	PHP_js	1454310678	64.104.124.41	Safari Generic : MacOSX : js
+198013	4038	4697	start	paying	js	1454310692	64.104.124.41	Safari Generic : MacOSX : js
+198016	4038	4697	endat0	paying	js	1454316314	64.104.124.41	Safari Generic : MacOSX : js
+198018	15093	4697	onwatch	paying	PHP_js	1454317442	63.78.142.1	Chrome Generic : Win7
+198019	15093	4697	start	paying	js	1454317448	63.78.142.1	Chrome Generic : Win7
+198041	15093	4697	endat10	paying	js	1454330640	63.78.142.1	Chrome Generic : Win7
+198147	7952	4697	onwatch	paying	PHP_js	1454353276	98.235.13.136	Safari Generic : MacOSX : js
+198148	7952	4697	start	paying	js	1454353281	98.235.13.136	Safari Generic : MacOSX : js
+198154	7952	4697	start	paying	js	1454354229	98.235.13.136	Safari Generic : MacOSX : js
+198155	7952	4697	start	paying	js	1454354297	98.235.13.136	Safari Generic : MacOSX : js
+198166	7952	4697	half	paying	js	1454356879	98.235.13.136	Safari Generic : MacOSX : js
+198173	7952	4697	start	paying	js	1454358485	98.235.13.136	Safari Generic : MacOSX : js
+198174	7952	4697	half	paying	js	1454358488	98.235.13.136	Safari Generic : MacOSX : js
+198240	14677	4697	onwatch	paying	PHP_js	1454367356	107.77.75.109	Safari Generic : MacOSX : js
+198241	14677	4697	start	paying	js	1454367366	107.77.75.109	Safari Generic : MacOSX : js
+198339	14982	4697	onwatch	paying	PHP_js	1454414112	61.246.231.130	Safari Generic : MacOSX : js
+198373	15030	4697	onwatch	trial	PHP_js	1454425679	204.154.44.47	Chrome Generic : MacOSX
+198374	15030	4697	start	trial	js	1454425684	204.154.44.47	Chrome Generic : MacOSX
+198375	15030	4697	endat6	trial	js	1454425695	204.154.44.47	Chrome Generic : MacOSX
+198424	15137	4697	endat0	trial	js	1454436342	158.228.72.5	Chrome Generic : MacOSX
+198873	14442	4697	onwatch	paying	PHP_js	1454538803	74.75.227.159	Chrome Generic : MacOSX
+198874	14442	4697	start	paying	js	1454538813	74.75.227.159	Chrome Generic : MacOSX
+198907	14099	4697	onwatch	paying	PHP_js	1454546977	198.217.118.135	Chrome Generic : MacOSX
+198908	14099	4697	start	paying	js	1454546991	198.217.118.135	Chrome Generic : MacOSX
+198921	14099	4697	half	paying	js	1454549488	198.217.118.135	Chrome Generic : MacOSX
+199045	4243	4697	onwatch	paying	PHP_js	1454597475	168.244.4.55	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0
+199046	4243	4697	start	paying	js	1454597493	168.244.4.55	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0
+199047	4243	4697	endat1	paying	js	1454597545	168.244.4.55	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0
+199115	14871	4697	onwatch	paying	PHP_js	1454609183	192.236.17.51	Chrome Generic : MacOSX
+199116	14871	4697	start	paying	js	1454609188	192.236.17.51	Chrome Generic : MacOSX
+199117	14871	4697	endat0	paying	js	1454609195	192.236.17.51	Chrome Generic : MacOSX
+199300	14674	4697	onwatch	paying	PHP_js	1454674663	68.168.180.76	Safari Generic : MacOSX : js
+199301	14674	4697	start	paying	js	1454674674	68.168.180.76	Safari Generic : MacOSX : js
+199303	14674	4697	endat7	paying	js	1454676306	68.168.180.76	Safari Generic : MacOSX : js
+199304	14674	4697	onwatch	paying	PHP_js	1454676307	68.168.180.76	Safari Generic : MacOSX : js
+199307	14674	4697	start	paying	js	1454676701	68.168.180.76	Safari Generic : MacOSX : js
+199336	14674	4697	endat12	paying	js	1454684382	161.225.196.111	Safari Generic : MacOSX : js
+199340	14631	4697	onwatch	trial	PHP_js	1454684502	98.118.32.33	Chrome Generic : MacOSX
+199343	14631	4697	endat0	trial	js	1454684825	98.118.32.33	Chrome Generic : MacOSX
+199444	7979	4697	onwatch	paying	PHP_js	1454700251	24.34.160.72	Chrome Generic : MacOSX
+199483	7979	4697	endat0	paying	js	1454704118	24.34.160.72	Chrome Generic : MacOSX
+199507	13823	4697	onwatch	paying	PHP_js	1454713659	108.171.135.161	Chrome Generic : MacOSX
+199508	13823	4697	start	paying	js	1454713665	108.171.135.161	Chrome Generic : MacOSX
+199514	13823	4697	endat29	paying	js	1454715687	108.171.135.161	Chrome Generic : MacOSX
+199554	9811	4697	onwatch	paying	PHP_js	1454770143	80.160.148.82	Chrome Generic : Win7
+199555	9811	4697	start	paying	js	1454770158	80.160.148.82	Chrome Generic : Win7
+199559	9811	4697	endat20	paying	js	1454773695	80.160.148.82	Chrome Generic : Win7
+199560	9811	4697	onwatch	paying	PHP_js	1454773696	80.160.148.82	Chrome Generic : Win7
+199564	9811	4697	start	paying	js	1454774280	80.160.148.82	Chrome Generic : Win7
+199565	9811	4697	half	paying	js	1454774912	80.160.148.82	Chrome Generic : Win7
+199568	9811	4697	endat82	paying	js	1454774996	80.160.148.82	Chrome Generic : Win7
+199633	14971	4697	onwatch	paying	PHP_js	1454814584	184.152.79.208	Chrome Generic : MacOSX
+199634	14971	4697	start	paying	js	1454814591	184.152.79.208	Chrome Generic : MacOSX
+199636	14971	4697	half	paying	js	1454817088	184.152.79.208	Chrome Generic : MacOSX
+199637	10441	4697	onwatch	paying	PHP_js	1454821273	116.15.145.145	Chrome Generic : MacOSX
+199638	10441	4697	endat0	paying	js	1454822337	116.15.145.145	Chrome Generic : MacOSX
+199682	9552	4697	onwatch	paying	PHP_js	1454884118	75.109.94.216	Chrome Generic : MacOSX
+199683	9552	4697	endat0	paying	js	1454884197	75.109.94.216	Chrome Generic : MacOSX
+199888	15197	4697	onwatch	trial	PHP_js	1454956982	38.110.163.206	Chrome Generic : MacOSX
+199891	15197	4697	endat0	trial	js	1454957595	38.110.163.206	Chrome Generic : MacOSX
+199989	15062	4697	onwatch	paying	PHP_js	1454979479	203.96.123.160	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+199991	15062	4697	start	paying	js	1454981830	203.96.123.160	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+199993	15062	4697	endat35	paying	js	1454983612	203.96.123.160	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+200056	14813	4697	onwatch	paying	PHP_js	1455016593	79.136.64.219	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:44.0) Gecko/20100101 Firefox/44.0
+200057	14813	4697	endat0	paying	js	1455016981	79.136.64.219	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:44.0) Gecko/20100101 Firefox/44.0
+200499	15174	4697	onwatch	paying	PHP_js	1455141961	174.24.240.122	Chrome Generic : MacOSX
+200500	15174	4697	start	paying	js	1455141974	174.24.240.122	Chrome Generic : MacOSX
+200511	15174	4697	half	paying	js	1455144715	174.24.240.122	Chrome Generic : MacOSX
+200525	15174	4697	finished	paying	js	1455150562	174.24.240.122	Chrome Generic : MacOSX
+200526	15174	4697	endat100	paying	js	1455150575	174.24.240.122	Chrome Generic : MacOSX
+200861	14765	4697	onwatch	trial	PHP_js	1455294182	65.116.40.1	Safari Generic : MacOSX : js
+200862	14765	4697	start	trial	js	1455294189	65.116.40.1	Safari Generic : MacOSX : js
+201436	13470	4697	onwatch	trial	PHP_js	1455635151	67.139.148.132	Chrome Generic : MacOSX
+201437	13470	4697	endat0	trial	js	1455636381	67.139.148.132	Chrome Generic : MacOSX
+201603	12850	4697	onwatch	paying	PHP_js	1455679958	108.201.0.120	Safari Generic : MacOSX : js
+201964	9053	4697	onwatch	paying	PHP_js	1455837231	72.48.250.33	Safari Generic : MacOSX : js
+201965	9053	4697	endat0	paying	js	1455837263	72.48.250.33	Safari Generic : MacOSX : js
+202037	14827	4697	onwatch	paying	PHP_js	1455884326	86.166.32.0	Chrome Generic : MacOSX
+202111	14674	4697	onwatch	paying	PHP_js	1455906620	161.225.196.111	Safari Generic : MacOSX : js
+202114	14674	4697	endat0	paying	js	1455906640	161.225.196.111	Safari Generic : MacOSX : js
+202115	14674	4697	onwatch	paying	PHP_js	1455906641	161.225.196.111	Safari Generic : MacOSX : js
+202116	14674	4697	endat0	paying	js	1455906657	161.225.196.111	Safari Generic : MacOSX : js
+202117	14674	4697	endat0	paying	js	1455906661	161.225.196.111	Safari Generic : MacOSX : js
+202125	14674	4697	onwatch	paying	PHP_js	1455906800	161.225.196.111	Safari Generic : MacOSX : js
+202126	14674	4697	start	paying	js	1455906838	161.225.196.111	Safari Generic : MacOSX : js
+202127	14674	4697	half	paying	js	1455906839	161.225.196.111	Safari Generic : MacOSX : js
+202132	14674	4697	endat103	paying	js	1455907110	161.225.196.111	Safari Generic : MacOSX : js
+202133	14674	4697	onwatch	paying	PHP_js	1455907110	161.225.196.111	Safari Generic : MacOSX : js
+202134	14674	4697	onwatch	paying	PHP_js	1455907574	161.225.129.111	Safari Generic : MacOSX : js
+202136	14674	4697	start	paying	js	1455907603	161.225.129.111	Safari Generic : MacOSX : js
+202138	14674	4697	onwatch	paying	PHP_js	1455907830	161.225.196.111	Safari Generic : MacOSX : js
+202139	14674	4697	start	paying	js	1455907872	161.225.196.111	Safari Generic : MacOSX : js
+202140	14674	4697	endat22	paying	js	1455907934	161.225.196.111	Safari Generic : MacOSX : js
+202141	14674	4697	onwatch	paying	PHP_js	1455907934	161.225.196.111	Safari Generic : MacOSX : js
+202144	14674	4697	endat0	paying	js	1455908026	161.225.196.111	Safari Generic : MacOSX : js
+202149	4	4697	onwatch	paying	PHP_js	1455908196	98.118.32.33	Chrome Generic : MacOSX
+202150	4	4697	start	paying	js	1455908205	98.118.32.33	Chrome Generic : MacOSX
+202152	6	4697	onwatch	paying	PHP_no_js	1455908770	98.118.32.33	Chrome Generic : MacOSX
+202154	6	4697	start	paying	js	1455908774	98.118.32.33	Chrome Generic : MacOSX
+202155	6	4697	half	paying	js	1455908788	98.118.32.33	Chrome Generic : MacOSX
+202156	6	4697	endat58	paying	js	1455908791	98.118.32.33	Chrome Generic : MacOSX
+202175	15214	4697	endat14	paying	js	1455910899	98.118.32.33	Chrome Generic : MacOSX
+202872	6518	4697	onwatch	paying	PHP_js	1456142911	92.42.241.8	Chrome Generic : MacOSX
+202874	6518	4697	start	paying	js	1456142957	92.42.241.8	Chrome Generic : MacOSX
+202894	6518	4697	half	paying	js	1456145453	92.42.241.8	Chrome Generic : MacOSX
+202912	6518	4697	finished	paying	js	1456147944	92.42.241.8	Chrome Generic : MacOSX
+202938	6518	4697	endat100	paying	js	1456152822	92.42.241.8	Chrome Generic : MacOSX
+203084	8295	4697	onwatch	paying	PHP_js	1456165616	216.32.149.158	Chrome Generic : MacOSX
+203085	8295	4697	start	paying	js	1456165627	216.32.149.158	Chrome Generic : MacOSX
+203098	8295	4697	endat14	paying	js	1456166372	216.32.149.158	Chrome Generic : MacOSX
+203141	15331	4697	onwatch	paying	PHP_js	1456171825	208.74.141.244	Chrome Generic : Win7
+203142	15331	4697	start	paying	js	1456171828	208.74.141.244	Chrome Generic : Win7
+203143	15331	4697	half	paying	js	1456171857	208.74.141.244	Chrome Generic : Win7
+203144	15331	4697	endat84	paying	js	1456171875	208.74.141.244	Chrome Generic : Win7
+203331	4038	4697	onwatch	paying	PHP_js	1456199108	64.104.124.39	Safari Generic : MacOSX : js
+203333	4038	4697	onwatch	paying	PHP_js	1456199136	64.104.124.39	Safari Generic : MacOSX : js
+203341	4038	4697	start	paying	js	1456202081	64.104.124.39	Safari Generic : MacOSX : js
+203346	4038	4697	endat25	paying	js	1456206351	64.104.124.39	Safari Generic : MacOSX : js
+203347	4038	4697	endat38	paying	js	1456206352	64.104.124.39	Safari Generic : MacOSX : js
+203348	4038	4697	endat12	paying	js	1456206400	64.104.124.39	Safari Generic : MacOSX : js
+203465	15183	4697	onwatch	trial	PHP_js	1456250884	68.37.151.227	Chrome Generic : MacOSX
+203466	15183	4697	endat0	trial	js	1456250928	68.37.151.227	Chrome Generic : MacOSX
+203552	15331	4697	onwatch	paying	PHP_js	1456264412	208.74.141.244	Chrome Generic : Win7
+203553	15331	4697	endat0	paying	js	1456264420	208.74.141.244	Chrome Generic : Win7
+203875	9053	4697	onwatch	paying	PHP_js	1456349749	173.224.162.69	Safari Generic : MacOSX : js
+203876	9053	4697	start	paying	js	1456349766	173.224.162.69	Safari Generic : MacOSX : js
+203910	9053	4697	endat11	paying	js	1456352194	173.224.162.69	Safari Generic : MacOSX : js
+204373	15231	4697	onwatch	paying	PHP_js	1456464899	108.247.124.25	Safari Generic : MacOSX : js
+204374	15231	4697	endat0	paying	js	1456465026	108.247.124.25	Safari Generic : MacOSX : js
+204460	15375	4697	onwatch	paying	PHP_js	1456498925	66.112.44.198	Chrome Generic : Win7
+204461	15375	4697	onwatch	paying	PHP_js	1456498926	66.112.44.198	Chrome Generic : Win7
+204686	15375	4697	onwatch	paying	PHP_js	1456528509	66.112.44.198	Chrome Generic : Win7
+204925	14827	4697	onwatch	paying	PHP_js	1456683038	86.160.170.224	Chrome Generic : MacOSX
+204926	14827	4697	start	paying	js	1456683051	86.160.170.224	Chrome Generic : MacOSX
+204927	14827	4697	endat4	paying	js	1456683283	86.160.170.224	Chrome Generic : MacOSX
+205693	9053	4697	onwatch	paying	PHP_js	1456866347	72.48.250.33	Safari Generic : MacOSX : js
+205694	9053	4697	start	paying	js	1456866439	72.48.250.33	Safari Generic : MacOSX : js
+206036	9053	4697	endat11	paying	js	1456946259	173.224.163.81	Safari Generic : MacOSX : js
+206043	13501	4697	onwatch	paying	PHP_js	1456947315	65.29.128.201	Chrome Generic : MacOSX
+206044	13501	4697	start	paying	js	1456947322	65.29.128.201	Chrome Generic : MacOSX
+206054	13501	4697	endat18	paying	js	1456948413	65.29.128.201	Chrome Generic : MacOSX
+206144	9053	4697	onwatch	paying	PHP_js	1456964775	72.48.250.33	Safari Generic : MacOSX : js
+206145	9053	4697	start	paying	js	1456964777	72.48.250.33	Safari Generic : MacOSX : js
+206151	9053	4697	half	paying	js	1456966612	72.48.250.33	Safari Generic : MacOSX : js
+206186	9053	4697	endat83	paying	js	1456971546	72.48.250.33	Safari Generic : MacOSX : js
+206519	7602	4697	onwatch	paying	PHP_js	1457069629	203.219.2.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:44.0) Gecko/20100101 Firefox/44.0
+206520	7602	4697	start	paying	js	1457069644	203.219.2.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:44.0) Gecko/20100101 Firefox/44.0
+206521	7602	4697	endat0	paying	js	1457069680	203.219.2.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:44.0) Gecko/20100101 Firefox/44.0
+206565	14422	4697	onwatch	paying	PHP_js	1457104487	27.4.211.36	Chrome Generic : Win7
+206754	15280	4697	onwatch	trial	PHP_js	1457136961	205.155.71.37	Safari Generic : MacOSX : js
+206755	15280	4697	start	trial	js	1457136966	205.155.71.37	Safari Generic : MacOSX : js
+206962	14674	4697	onwatch	paying	PHP_js	1457323168	68.168.180.76	Safari Generic : MacOSX : js
+206963	14674	4697	start	paying	js	1457323173	68.168.180.76	Safari Generic : MacOSX : js
+206964	14674	4697	half	paying	js	1457325220	68.168.180.76	Safari Generic : MacOSX : js
+207131	3862	4697	onwatch	paying	PHP_js	1457380049	69.25.45.6	Chrome Generic : MacOSX
+207132	3862	4697	start	paying	js	1457380093	69.25.45.6	Chrome Generic : MacOSX
+207155	3862	4697	half	paying	js	1457384856	69.25.45.6	Chrome Generic : MacOSX
+207186	14674	4697	endat65	paying	js	1457385493	161.225.196.111	Safari Generic : MacOSX : js
+207197	3862	4697	endat76	paying	js	1457386318	69.25.45.6	Chrome Generic : MacOSX
+207258	15187	4697	onwatch	paying	PHP_js	1457406872	172.58.32.230	Safari Generic : Linux : js
+207259	15187	4697	start	paying	js	1457406884	172.58.32.230	Safari Generic : Linux : js
+207334	3862	4697	onwatch	paying	PHP_js	1457442994	69.25.45.6	Chrome Generic : MacOSX
+207335	3862	4697	start	paying	js	1457444449	69.25.45.6	Chrome Generic : MacOSX
+207336	3862	4697	half	paying	js	1457444450	69.25.45.6	Chrome Generic : MacOSX
+207337	3862	4697	endat99	paying	js	1457445826	69.25.45.6	Chrome Generic : MacOSX
+207505	15187	4697	onwatch	paying	PHP_js	1457471253	172.58.33.128	Safari Generic : Linux : js
+207506	15187	4697	endat0	paying	js	1457471269	172.58.33.128	Safari Generic : Linux : js
+207978	4038	4697	onwatch	paying	PHP_js	1457572356	64.104.124.39	Safari Generic : MacOSX : js
+207979	4038	4697	start	paying	js	1457572371	64.104.124.39	Safari Generic : MacOSX : js
+207980	4038	4697	endat12	paying	js	1457572391	64.104.124.39	Safari Generic : MacOSX : js
+208007	15420	4697	onwatch	paying	PHP_js	1457585384	67.80.27.255	Safari Generic : MacOSX : js
+208008	15420	4697	start	paying	js	1457585387	67.80.27.255	Safari Generic : MacOSX : js
+208009	15420	4697	half	paying	js	1457585439	67.80.27.255	Safari Generic : MacOSX : js
+208010	15420	4697	endat83	paying	js	1457585528	67.80.27.255	Safari Generic : MacOSX : js
+208063	15066	4697	onwatch	paying	PHP_js	1457603928	63.78.142.1	Chrome Generic : Win7
+208064	15066	4697	endat0	paying	js	1457604093	63.78.142.1	Chrome Generic : Win7
+208065	15066	4697	onwatch	paying	PHP_js	1457604344	63.78.142.1	Chrome Generic : Win7
+208067	15066	4697	endat0	paying	js	1457604875	63.78.142.1	Chrome Generic : Win7
+208106	15492	4697	onwatch	paying	PHP_js	1457620951	84.145.121.112	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+208108	15492	4697	start	paying	js	1457620957	84.145.121.112	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+208116	15492	4697	half	paying	js	1457623325	84.145.121.112	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+208117	15492	4697	endat62	paying	js	1457623951	84.145.121.112	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+208546	15496	4697	onwatch	trial	PHP_js	1457705733	12.188.185.200	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+208547	15496	4697	endat0	trial	js	1457705752	12.188.185.200	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+208805	5951	4697	onwatch	paying	PHP_js	1457788157	84.222.113.110	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+208806	5951	4697	start	paying	js	1457788162	84.222.113.110	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+208807	5951	4697	endat0	paying	js	1457788244	84.222.113.110	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+208810	5951	4697	endat0	paying	js	1457788254	84.222.113.110	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+208815	5951	4697	endat0	paying	js	1457788591	84.222.113.110	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+208816	5951	4697	onwatch	paying	PHP_js	1457788613	84.222.113.110	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+208817	5951	4697	start	paying	js	1457788617	84.222.113.110	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+209315	15532	4697	onwatch	trial	PHP_js	1458061442	165.225.80.54	Chrome Generic : Win7
+209316	15532	4697	endat0	trial	js	1458061450	165.225.80.54	Chrome Generic : Win7
+209371	15532	4697	onwatch	trial	PHP_js	1458076018	82.30.16.97	Chrome Generic : MacOSX
+209372	15532	4697	endat0	trial	js	1458076103	82.30.16.97	Chrome Generic : MacOSX
+209583	15532	4697	onwatch	trial	PHP_js	1458121628	165.225.80.54	Chrome Generic : Win7
+209586	15336	4697	onwatch	trial	PHP_js	1458123033	194.168.210.162	Safari Generic : MacOSX : js
+209587	15336	4697	endat0	trial	js	1458123045	194.168.210.162	Safari Generic : MacOSX : js
+209620	15336	4697	onwatch	trial	PHP_js	1458125175	194.168.210.162	Chrome Generic : MacOSX
+209621	15336	4697	start	trial	js	1458125178	194.168.210.162	Chrome Generic : MacOSX
+209630	15532	4697	onwatch	trial	PHP_js	1458127916	165.225.80.54	Chrome Generic : Win7
+209632	15532	4697	endat0	trial	js	1458128182	165.225.80.54	Chrome Generic : Win7
+209731	15336	4697	onwatch	trial	PHP_js	1458138847	194.168.210.162	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+209732	15336	4697	start	trial	js	1458138855	194.168.210.162	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+210222	15514	4697	onwatch	trial	PHP_js	1458336705	69.164.167.114	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
+210281	5951	4697	onwatch	paying	PHP_js	1458486110	84.222.113.110	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+210413	15478	4697	onwatch	paying	PHP_js	1458636598	213.205.251.120	Safari Generic : MacOSX : js
+210564	15103	4697	onwatch	paying	PHP_js	1458766189	108.36.171.15	Chrome Generic : Win7
+210568	15478	4697	onwatch	paying	PHP_js	1458767198	213.205.251.56	Chrome Generic : MacOSX
+210612	15478	4697	onwatch	paying	PHP_js	1458820105	91.199.180.11	Chrome Generic : MacOSX
+210629	9116	4697	onwatch	trial	PHP_js	1458832849	182.72.161.70	Safari Generic : MacOSX : js
+210699	15603	4697	onwatch	paying	PHP_js	1458866183	45.49.149.54	Chrome Generic : MacOSX
+210805	6154	4697	onwatch	paying	PHP_js	1458938818	80.108.115.95	Chrome Generic : MacOSX
+210916	15633	4697	onwatch	trial	PHP_js	1459113120	88.8.187.175	Safari Generic : MacOSX : js
+211080	15603	4697	onwatch	paying	PHP_no_js	1459268855	45.49.149.54	Chrome Generic : MacOSX
+211151	13509	4697	onwatch	paying	PHP_js	1459368698	123.3.207.47	Chrome Generic : MacOSX
+211194	15514	4697	onwatch	trial	PHP_js	1459410687	97.126.15.202	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+211282	10752	4697	onwatch	paying	PHP_js	1459529439	216.166.58.94	Chrome Generic : MacOSX
+211310	15687	4697	onwatch	trial	PHP_js	1459555559	27.99.44.108	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:45.0) Gecko/20100101 Firefox/45.0
+211392	4919	4697	onwatch	paying	PHP_js	1459721777	50.240.131.212	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:45.0) Gecko/20100101 Firefox/45.0
+211565	15589	4697	onwatch	paying	PHP_js	1459887284	71.35.49.196	Safari Generic : MacOSX : js
+211578	15589	4697	onwatch	paying	PHP_js	1459891835	71.35.49.196	Safari Generic : MacOSX : js
+211579	15589	4697	onwatch	paying	PHP_js	1459892442	71.35.49.196	Safari Generic : MacOSX : js
+211580	15589	4697	onwatch	paying	PHP_js	1459894388	71.35.49.196	Safari Generic : MacOSX : js
+211630	14637	4697	onwatch	paying	PHP_js	1459962393	108.171.133.178	IE 9.0 : Win7 : js
+211857	12637	4697	onwatch	paying	PHP_js	1460348522	24.5.151.99	Chrome Generic : MacOSX
+211878	14488	4697	onwatch	paying	PHP_js	1460377398	107.107.60.58	Safari Generic : MacOSX : js
+211963	14488	4697	onwatch	paying	PHP_js	1460462966	75.131.145.160	Safari Generic : MacOSX : js
+211983	15419	4697	onwatch	paying	PHP_js	1460471011	155.201.34.9	Chrome Generic : MacOSX
+212200	14784	4697	onwatch	paying	PHP_js	1460741594	174.46.3.102	Chrome Generic : MacOSX
+212491	15813	4697	onwatch	paying	PHP_js	1461098086	181.30.55.187	Chrome Generic : MacOSX
+212595	13894	4697	onwatch	paying	PHP_js	1461206448	73.210.162.153	Chrome Generic : MacOSX
+212610	13894	4697	onwatch	paying	PHP_js	1461251595	167.127.104.145	Chrome Generic : MacOSX
+212630	5798	4697	onwatch	paying	PHP_js	1461265954	76.8.143.116	Chrome Generic : MacOSX
+212853	15868	4697	onwatch	trial	PHP_js	1461630669	206.169.118.236	Chrome Generic : MacOSX
+212867	15706	4697	onwatch	trial	PHP_js	1461680677	184.74.146.13	Chrome Generic : MacOSX
+212924	14466	4697	onwatch	paying	PHP_js	1461772745	198.179.137.241	Chrome Generic : MacOSX
+212925	14466	4697	onwatch	paying	PHP_js	1461773035	108.56.162.121	Chrome Generic : MacOSX
+212942	14466	4697	onwatch	paying	PHP_js	1461782761	198.179.137.198	Chrome Generic : MacOSX
+212943	14466	4697	onwatch	paying	PHP_js	1461782768	198.179.137.198	Chrome Generic : MacOSX
+212944	14466	4697	onwatch	paying	PHP_js	1461782779	198.179.137.198	Chrome Generic : MacOSX
+212988	13894	4697	onwatch	paying	PHP_js	1461862330	167.127.104.145	Chrome Generic : MacOSX
+212989	13894	4697	onwatch	paying	PHP_js	1461862675	167.127.104.145	Chrome Generic : MacOSX
+212998	15578	4697	onwatch	paying	PHP_js	1461867471	24.202.134.13	Chrome Generic : MacOSX
+213251	7631	4697	onwatch	paying	PHP_js	1462315463	208.104.238.235	Chrome Generic : MacOSX
+213254	7631	4697	onwatch	paying	PHP_js	1462317040	208.104.238.235	Chrome Generic : MacOSX
+213256	15930	4697	onwatch	paying	PHP_js	1462325786	14.28.185.143	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.9.2.1000 Chrome/39.0.2146.0 Safari/537.36
+213347	9081	4697	onwatch	paying	PHP_js	1462400096	83.29.197.47	Safari Generic : MacOSX : js
+213809	14466	4697	onwatch	paying	PHP_js	1462908446	198.179.137.231	Chrome Generic : MacOSX
+213978	15973	4697	onwatch	paying	PHP_js	1463038744	219.65.69.36	Chrome Generic : Win7
+214001	14466	4697	onwatch	paying	PHP_js	1463077206	198.179.137.253	Chrome Generic : MacOSX
+214002	14466	4697	onwatch	paying	PHP_js	1463077223	198.179.137.253	Chrome Generic : MacOSX
+214050	15940	4697	onwatch	paying	PHP_js	1463103365	73.68.178.106	Safari Generic : MacOSX : js
+214058	15251	4697	onwatch	trial	PHP_js	1463119927	212.116.93.131	Safari Generic : MacOSX : js
+214085	15940	4697	onwatch	paying	PHP_js	1463153126	73.68.178.106	Safari Generic : MacOSX : js
+214305	15664	4697	onwatch	paying	PHP_js	1463419846	209.195.135.66	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+214308	15925	4697	onwatch	paying	PHP_js	1463420846	141.202.54.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:26.0) Gecko/20100101 Firefox/26.0
+214309	15925	4697	onwatch	paying	PHP_js	1463421428	141.202.54.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:26.0) Gecko/20100101 Firefox/26.0
+214346	15664	4697	onwatch	paying	PHP_js	1463432171	209.195.135.66	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+214427	14466	4697	onwatch	paying	PHP_js	1463510416	198.179.137.199	Chrome Generic : MacOSX
+214563	16034	4697	onwatch	trial	PHP_js	1463661337	24.49.101.80	Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+214569	15664	4697	onwatch	paying	PHP_js	1463662153	209.195.135.66	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+214586	14466	4697	onwatch	paying	PHP_js	1463675536	198.179.137.204	Chrome Generic : MacOSX
+214748	7962	4697	onwatch	paying	PHP_js	1463996995	31.221.86.42	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:46.0) Gecko/20100101 Firefox/46.0
+214823	16021	4697	onwatch	paying	PHP_js	1464034767	65.197.232.3	Chrome Generic : Win7
+214978	16021	4697	onwatch	paying	PHP_js	1464203544	65.197.232.3	Chrome Generic : Win7
+215060	15925	4697	onwatch	paying	PHP_no_js	1464300032	141.202.54.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:26.0) Gecko/20100101 Firefox/26.0
+215283	15925	4697	onwatch	paying	PHP_no_js	1464711523	141.202.54.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:26.0) Gecko/20100101 Firefox/26.0
+215290	15925	4697	onwatch	paying	PHP_js	1464717060	70.214.78.249	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:26.0) Gecko/20100101 Firefox/26.0
+215511	15925	4697	onwatch	paying	PHP_js	1464900360	141.202.54.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:46.0) Gecko/20100101 Firefox/46.0
+215512	15925	4697	onwatch	paying	PHP_js	1464901451	141.202.54.2	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:46.0) Gecko/20100101 Firefox/46.0
+215692	15846	4697	onwatch	trial	PHP_js	1465255666	70.113.11.245	Safari Generic : MacOSX : js
+215764	15684	4697	onwatch	paying	PHP_js	1465393138	50.201.69.34	Chrome Generic : MacOSX
+215909	9081	4697	onwatch	paying	PHP_js	1465565046	195.160.184.137	Safari Generic : MacOSX : js
+216146	14674	4697	onwatch	paying	PHP_js	1465992445	68.168.180.76	Safari Generic : MacOSX : js
+216415	15040	4697	onwatch	trial	PHP_js	1466363665	87.149.174.77	Safari Generic : MacOSX : js
+216468	14593	4697	onwatch	paying	PHP_js	1466428242	208.74.228.18	Chrome Generic : Win7
+216925	15040	4697	onwatch	trial	PHP_js	1467008053	87.149.166.111	Safari Generic : MacOSX : js
+217046	8295	4697	onwatch	paying	PHP_js	1467061287	216.32.149.158	Chrome Generic : MacOSX
+217047	8295	4697	start	paying	js	1467061288	216.32.149.158	Chrome Generic : MacOSX
+217054	8295	4697	half	paying	js	1467064757	216.32.149.158	Chrome Generic : MacOSX
+217064	8295	4697	endat86	paying	js	1467066157	216.32.149.158	Chrome Generic : MacOSX
+217754	16364	4697	onwatch	paying	PHP_js	1467486787	86.175.94.182	Safari Generic : MacOSX : js
+217755	16364	4697	start	paying	js	1467486799	86.175.94.182	Safari Generic : MacOSX : js
+217982	15395	4697	onwatch	paying	PHP_js	1467656997	106.51.30.100	Chrome Generic : MacOSX
+217983	15395	4697	start	paying	js	1467657003	106.51.30.100	Chrome Generic : MacOSX
+218303	14495	4697	onwatch	paying	PHP_js	1467822402	174.47.84.221	Safari Generic : MacOSX : js
+218304	14495	4697	start	paying	js	1467822408	174.47.84.221	Safari Generic : MacOSX : js
+218307	14495	4697	endat3	paying	js	1467822564	174.47.84.221	Safari Generic : MacOSX : js
+218308	14495	4697	start	paying	js	1467822569	174.47.84.221	Safari Generic : MacOSX : js
+218323	14495	4697	half	paying	js	1467825146	174.47.84.221	Safari Generic : MacOSX : js
+218746	16394	4697	onwatch	trial	PHP_js	1467991960	123.231.127.24	Chrome Generic : Win7
+218747	16394	4697	start	trial	js	1467991983	123.231.127.24	Chrome Generic : Win7
+218768	16394	4697	endat30	trial	js	1467998799	123.231.127.24	Chrome Generic : Win7
+220019	16364	4697	onwatch	paying	PHP_js	1468675191	86.182.249.166	Safari Generic : MacOSX : js
+220020	16364	4697	onwatch	paying	PHP_js	1468676387	86.182.249.166	Safari Generic : MacOSX : js
+220021	16364	4697	start	paying	js	1468676393	86.182.249.166	Safari Generic : MacOSX : js
+220022	16364	4697	half	paying	js	1468676414	86.182.249.166	Safari Generic : MacOSX : js
+220345	14131	4697	onwatch	paying	PHP_js	1468848747	86.147.72.112	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0
+220348	14131	4697	endat0	paying	js	1468848828	86.147.72.112	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0
+220410	16131	4697	onwatch	paying	PHP_js	1468856442	199.59.33.126	Chrome Generic : Win7
+220411	16131	4697	start	paying	js	1468856452	199.59.33.126	Chrome Generic : Win7
+221057	14593	4697	onwatch	paying	PHP_js	1469102118	208.74.228.17	Chrome Generic : Win7
+221058	14593	4697	start	paying	js	1469102197	208.74.228.17	Chrome Generic : Win7
+221064	14593	4697	half	paying	js	1469104693	208.74.228.17	Chrome Generic : Win7
+221079	4596	4697	onwatch	trial	PHP_js	1469112804	69.38.232.226	Chrome Generic : MacOSX
+221080	4596	4697	start	trial	js	1469112809	69.38.232.226	Chrome Generic : MacOSX
+221137	14593	4697	endat99	paying	js	1469130768	208.74.228.17	Chrome Generic : Win7
+221253	4596	4697	half	trial	js	1469198994	69.38.232.226	Chrome Generic : MacOSX
+221816	6848	4697	onwatch	paying	PHP_js	1469580373	73.155.198.232	Safari Generic : MacOSX : js
+221817	6848	4697	start	paying	js	1469580379	73.155.198.232	Safari Generic : MacOSX : js
+221820	6848	4697	onwatch	paying	PHP_js	1469582000	73.155.198.232	Safari Generic : MacOSX : js
+221821	6848	4697	start	paying	js	1469582022	66.87.121.88	Safari Generic : MacOSX : js
+221822	6848	4697	onwatch	paying	PHP_js	1469582461	73.155.198.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+221823	6848	4697	start	paying	js	1469582464	73.155.198.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+221830	6848	4697	half	paying	js	1469585713	73.155.198.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+221834	6848	4697	endat70	paying	js	1469587151	73.155.198.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+224575	14421	4697	onwatch	paying	PHP_js	1470994882	213.249.135.36	Chrome Generic : MacOSX
+224576	14421	4697	start	paying	js	1470994956	213.249.135.36	Chrome Generic : MacOSX
+224595	14421	4697	half	paying	js	1471007340	213.249.135.36	Chrome Generic : MacOSX
+224615	14421	4697	endat84	paying	js	1471014783	213.249.135.36	Chrome Generic : MacOSX
+224879	14421	4697	onwatch	paying	PHP_js	1471246228	213.249.135.36	Chrome Generic : MacOSX
+224893	14421	4697	onwatch	paying	PHP_js	1471249600	213.249.135.36	Chrome Generic : MacOSX
+224894	16576	4697	onwatch	paying	PHP_js	1471250332	194.75.173.188	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+224895	16576	4697	start	paying	js	1471250342	194.75.173.188	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+224915	14421	4697	onwatch	paying	PHP_js	1471264336	213.249.135.36	Chrome Generic : MacOSX
+224917	16576	4697	half	paying	js	1471267990	194.75.173.188	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+224945	16576	4697	endat88	paying	js	1471277068	194.75.173.188	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+225041	14421	4697	onwatch	paying	PHP_js	1471336644	144.178.255.25	Chrome Generic : MacOSX
+225183	14421	4697	onwatch	paying	PHP_js	1471417439	213.249.135.36	Chrome Generic : MacOSX
+225268	16519	4697	onwatch	paying	PHP_js	1471453803	173.227.201.128	Chrome Generic : MacOSX
+225269	16519	4697	start	paying	js	1471453814	173.227.201.128	Chrome Generic : MacOSX
+225270	16519	4697	endat0	paying	js	1471453916	173.227.201.128	Chrome Generic : MacOSX
+225340	13400	4697	onwatch	paying	PHP_js	1471471784	108.171.135.164	Chrome Generic : Win7
+225341	13400	4697	start	paying	js	1471471792	108.171.135.164	Chrome Generic : Win7
+225342	13400	4697	endat14	paying	js	1471471969	108.171.135.164	Chrome Generic : Win7
+225393	14421	4697	endat0	paying	js	1471515454	213.249.135.36	Chrome Generic : MacOSX
+225394	14421	4697	onwatch	paying	PHP_js	1471515873	213.249.135.36	Chrome Generic : MacOSX
+225746	6069	4697	onwatch	paying	PHP_js	1471806986	50.168.224.168	Safari Generic : MacOSX : js
+225747	6069	4697	start	paying	js	1471806992	50.168.224.168	Safari Generic : MacOSX : js
+225944	6069	4697	onwatch	paying	PHP_js	1471893746	216.51.93.155	Safari Generic : MacOSX : js
+225945	6069	4697	start	paying	js	1471894058	216.51.93.155	Safari Generic : MacOSX : js
+225969	6069	4697	half	paying	js	1471898284	216.51.93.155	Safari Generic : MacOSX : js
+226096	6069	4697	onwatch	paying	PHP_js	1471966141	216.51.93.155	Safari Generic : MacOSX : js
+226097	6069	4697	start	paying	js	1471966146	216.51.93.155	Safari Generic : MacOSX : js
+226098	6069	4697	half	paying	js	1471966147	216.51.93.155	Safari Generic : MacOSX : js
+227280	14764	4697	onwatch	paying	PHP_js	1472583102	149.80.9.162	Chrome Generic : MacOSX
+227281	14764	4697	start	paying	js	1472583106	149.80.9.162	Chrome Generic : MacOSX
+227289	14764	4697	half	paying	js	1472587877	149.80.15.32	Chrome Generic : MacOSX
+227802	15420	4697	onwatch	paying	PHP_js	1472773448	65.246.172.34	Safari Generic : MacOSX : js
+227803	15420	4697	start	paying	js	1472773449	65.246.172.34	Safari Generic : MacOSX : js
+227804	15420	4697	half	paying	js	1472773450	65.246.172.34	Safari Generic : MacOSX : js
+227805	15420	4697	endat86	paying	js	1472773478	65.246.172.34	Safari Generic : MacOSX : js
+228144	14141	4697	onwatch	paying	PHP_js	1473079495	85.200.206.78	Chrome Generic : MacOSX
+228145	14141	4697	endat0	paying	js	1473079504	85.200.206.78	Chrome Generic : MacOSX
+228146	14141	4697	start	paying	js	1473079568	85.200.206.78	Chrome Generic : MacOSX
+228153	14141	4697	half	paying	js	1473085065	85.200.206.78	Chrome Generic : MacOSX
+228269	14141	4697	onwatch	paying	PHP_js	1473142335	158.37.1.34	Chrome Generic : MacOSX
+228286	16447	4697	onwatch	paying	PHP_js	1473148965	202.65.196.242	Chrome Generic : MacOSX
+228287	16447	4697	endat0	paying	js	1473148974	202.65.196.242	Chrome Generic : MacOSX
+228297	14141	4697	onwatch	paying	PHP_js	1473155422	85.200.206.78	Chrome Generic : MacOSX
+228298	14141	4697	endat0	paying	js	1473155428	85.200.206.78	Chrome Generic : MacOSX
+228299	16714	4697	onwatch	paying	PHP_js	1473158864	217.138.50.242	Chrome Generic : MacOSX
+228300	16714	4697	start	paying	js	1473158884	185.53.226.242	Chrome Generic : MacOSX
+228612	15334	4697	onwatch	trial	PHP_js	1473274512	104.171.248.198	Chrome Generic : MacOSX
+228613	15334	4697	start	trial	js	1473274515	104.171.248.198	Chrome Generic : MacOSX
+228616	15334	4697	endat5	trial	js	1473274768	104.171.248.198	Chrome Generic : MacOSX
+228617	15334	4697	endat10	trial	js	1473274769	104.171.248.198	Chrome Generic : MacOSX
+228622	16714	4697	onwatch	paying	PHP_js	1473275173	80.189.141.22	Chrome Generic : MacOSX
+228623	16714	4697	start	paying	js	1473275176	80.189.141.22	Chrome Generic : MacOSX
+228640	16714	4697	endat44	paying	js	1473278739	80.189.141.22	Chrome Generic : MacOSX
+228641	16714	4697	onwatch	paying	PHP_js	1473278740	80.189.141.22	Chrome Generic : MacOSX
+228642	16714	4697	start	paying	js	1473278744	80.189.141.22	Chrome Generic : MacOSX
+228745	16714	4697	endat16	paying	js	1473341785	217.138.50.242	Chrome Generic : MacOSX
+228927	10147	4697	onwatch	paying	PHP_js	1473373480	107.77.208.122	Safari Generic : MacOSX : js
+228928	10147	4697	start	paying	js	1473373497	107.77.208.122	Safari Generic : MacOSX : js
+228932	10147	4697	half	paying	js	1473376211	107.77.208.122	Safari Generic : MacOSX : js
+229137	16714	4697	half	paying	js	1473500591	80.189.141.22	Chrome Generic : MacOSX
+229138	16714	4697	endat104	paying	js	1473503647	80.189.141.22	Chrome Generic : MacOSX
+229275	16710	4697	onwatch	trial	PHP_js	1473667010	49.207.60.79	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+229276	16710	4697	start	trial	js	1473667016	49.207.60.79	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+229277	16710	4697	endat26	trial	js	1473667065	49.207.60.79	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+229636	15478	4697	onwatch	paying	PHP_js	1473848554	91.199.180.11	Chrome Generic : MacOSX
+229637	15478	4697	start	paying	js	1473848559	91.199.180.11	Chrome Generic : MacOSX
+229640	15478	4697	endat7	paying	js	1473848983	91.199.180.11	Chrome Generic : MacOSX
+229641	15478	4697	onwatch	paying	PHP_js	1473848986	91.199.180.11	Chrome Generic : MacOSX
+229642	15478	4697	start	paying	js	1473848988	91.199.180.11	Chrome Generic : MacOSX
+229648	15478	4697	half	paying	js	1473851262	91.199.180.11	Chrome Generic : MacOSX
+229651	15478	4697	endat92	paying	js	1473852679	91.199.180.11	Chrome Generic : MacOSX
+230297	15399	4697	onwatch	paying	PHP_js	1474284964	192.8.193.234	Chrome Generic : MacOSX
+230298	15399	4697	start	paying	js	1474284971	192.8.193.234	Chrome Generic : MacOSX
+230299	15399	4697	endat7	paying	js	1474285385	192.8.193.101	Chrome Generic : MacOSX
+230300	15399	4697	onwatch	paying	PHP_js	1474285386	192.8.193.101	Chrome Generic : MacOSX
+230301	15399	4697	start	paying	js	1474285395	192.8.193.101	Chrome Generic : MacOSX
+230464	15399	4697	endat32	paying	js	1474353651	192.8.193.101	Chrome Generic : MacOSX
+230504	15399	4697	onwatch	paying	PHP_js	1474366959	192.8.193.101	Chrome Generic : MacOSX
+230505	15399	4697	start	paying	js	1474366964	192.8.193.101	Chrome Generic : MacOSX
+230506	15399	4697	endat36	paying	js	1474367064	192.8.193.101	Chrome Generic : MacOSX
+231057	15927	4697	onwatch	paying	PHP_js	1474603837	107.215.1.52	Chrome Generic : MacOSX
+231058	15927	4697	endat0	paying	js	1474604544	107.215.1.52	Chrome Generic : MacOSX
+231366	16710	4697	onwatch	trial	PHP_js	1474827640	106.51.31.127	Safari Generic : MacOSX : js
+231367	16710	4697	start	trial	js	1474827675	106.51.31.127	Safari Generic : MacOSX : js
+231734	4919	4697	onwatch	paying	PHP_js	1474924052	205.233.244.5	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:49.0) Gecko/20100101 Firefox/49.0
+231737	4919	4697	start	paying	js	1474924152	205.233.244.5	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:49.0) Gecko/20100101 Firefox/49.0
+231738	4919	4697	endat0	paying	js	1474924170	205.233.244.5	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:49.0) Gecko/20100101 Firefox/49.0
+231844	9829	4697	onwatch	paying	PHP_js	1474982358	172.25.186.95	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+231845	9829	4697	start	paying	js	1474982371	172.25.186.95	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+231846	9829	4697	endat0	paying	js	1474982383	172.25.186.95	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+232409	16793	4697	onwatch	paying	PHP_js	1475163109	31.45.70.201	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+232410	16793	4697	start	paying	js	1475163115	31.45.70.201	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+232418	16793	4697	half	paying	js	1475165611	31.45.70.201	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+232420	16793	4697	endat100	paying	js	1475168191	31.45.70.201	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+232620	5665	4697	onwatch	paying	PHP_js	1475239924	67.151.186.178	Chrome Generic : MacOSX
+232621	5665	4697	start	paying	js	1475239931	67.151.186.178	Chrome Generic : MacOSX
+232623	5665	4697	half	paying	js	1475242966	216.57.142.178	Chrome Generic : MacOSX
+232692	5665	4697	endat99	paying	js	1475258478	67.151.186.178	Chrome Generic : MacOSX
+233949	16464	4697	onwatch	paying	PHP_js	1475781755	74.71.131.82	Chrome Generic : MacOSX
+233950	16464	4697	start	paying	js	1475781762	74.71.131.82	Chrome Generic : MacOSX
+233970	16464	4697	half	paying	js	1475784259	74.71.131.82	Chrome Generic : MacOSX
+233972	16464	4697	endat71	paying	js	1475785348	74.71.131.82	Chrome Generic : MacOSX
+234125	15488	4697	onwatch	paying	PHP_js	1475849430	66.89.55.86	Chrome Generic : Win7
+234126	15488	4697	start	paying	js	1475849448	66.89.55.86	Chrome Generic : Win7
+234134	15488	4697	endat18	paying	js	1475851207	66.89.55.86	Chrome Generic : Win7
+234140	15488	4697	half	paying	js	1475852204	66.89.55.86	Chrome Generic : Win7
+234168	15488	4697	endat79	paying	js	1475857776	66.89.55.86	Chrome Generic : Win7
+234173	15488	4697	onwatch	paying	PHP_js	1475858049	66.89.55.86	Chrome Generic : Win7
+234175	15488	4697	start	paying	js	1475858050	66.89.55.86	Chrome Generic : Win7
+234176	15488	4697	half	paying	js	1475858052	66.89.55.86	Chrome Generic : Win7
+234182	15488	4697	endat80	paying	js	1475859074	66.89.55.86	Chrome Generic : Win7
+234183	15488	4697	onwatch	paying	PHP_js	1475859100	66.89.55.86	Chrome Generic : Win7
+234184	15488	4697	start	paying	js	1475859117	66.89.55.86	Chrome Generic : Win7
+234185	15488	4697	half	paying	js	1475859118	66.89.55.86	Chrome Generic : Win7
+234211	15488	4697	endat100	paying	js	1475860121	66.89.55.86	Chrome Generic : Win7
+234301	16989	4697	onwatch	paying	PHP_js	1475873635	73.189.143.124	Chrome Generic : MacOSX
+234302	16989	4697	start	paying	js	1475873657	73.189.143.124	Chrome Generic : MacOSX
+234561	17001	4697	onwatch	paying	PHP_js	1476034357	213.22.42.7	Safari Generic : MacOSX : js
+234562	17001	4697	start	paying	js	1476034364	213.22.42.7	Safari Generic : MacOSX : js
+234606	15620	4697	onwatch	paying	PHP_js	1476053773	73.88.6.62	Safari Generic : MacOSX : js
+234607	15620	4697	start	paying	js	1476053781	73.88.6.62	Safari Generic : MacOSX : js
+234617	15620	4697	half	paying	js	1476056378	73.88.6.62	Safari Generic : MacOSX : js
+234637	13310	4697	onwatch	paying	PHP_js	1476079400	213.214.58.169	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+234638	13310	4697	endat0	paying	js	1476079951	213.214.58.169	Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+234658	17001	4697	onwatch	paying	PHP_js	1476089776	62.28.230.158	Safari Generic : MacOSX : js
+234659	17001	4697	start	paying	js	1476089778	62.28.230.158	Safari Generic : MacOSX : js
+234663	17001	4697	half	paying	js	1476091004	62.28.230.158	Safari Generic : MacOSX : js
+234664	16753	4697	onwatch	paying	PHP_js	1476091224	130.105.208.182	Chrome Generic : MacOSX
+234666	16753	4697	start	paying	js	1476091396	130.105.208.182	Chrome Generic : MacOSX
+234669	17001	4697	endat73	paying	js	1476092626	62.28.230.158	Safari Generic : MacOSX : js
+234670	17001	4697	onwatch	paying	PHP_js	1476092689	62.28.230.158	Safari Generic : MacOSX : js
+234671	17001	4697	start	paying	js	1476092692	62.28.230.158	Safari Generic : MacOSX : js
+234672	17001	4697	half	paying	js	1476092694	62.28.230.158	Safari Generic : MacOSX : js
+234675	16753	4697	endat29	paying	js	1476092958	130.105.208.182	Chrome Generic : MacOSX
+234676	16753	4697	half	paying	js	1476092959	130.105.208.182	Chrome Generic : MacOSX
+234684	17001	4697	finished	paying	js	1476096973	62.28.230.158	Safari Generic : MacOSX : js
+234685	17001	4697	endat100	paying	js	1476096979	62.28.230.158	Safari Generic : MacOSX : js
+234816	17008	4697	onwatch	trial	PHP_js	1476115577	216.222.67.12	Safari Generic : MacOSX : js
+234817	17008	4697	start	trial	js	1476115585	216.222.67.12	Safari Generic : MacOSX : js
+234819	17008	4697	endat19	trial	js	1476116552	216.222.67.12	Safari Generic : MacOSX : js
+234959	15620	4697	onwatch	paying	PHP_js	1476147660	184.100.72.96	Safari Generic : MacOSX : js
+235022	15620	4697	endat0	paying	js	1476192946	184.100.72.96	Safari Generic : MacOSX : js
+235828	17073	4697	onwatch	trial	PHP_js	1476401958	38.140.108.235	Chrome Generic : MacOSX
+235829	17073	4697	start	trial	js	1476401966	38.140.108.235	Chrome Generic : MacOSX
+236358	17073	4697	endat4	trial	js	1476722849	38.140.108.235	Chrome Generic : MacOSX
+237089	16447	4697	onwatch	paying	PHP_js	1476935395	202.65.196.242	Chrome Generic : MacOSX
+237094	16447	4697	endat0	paying	js	1476936364	202.65.196.242	Chrome Generic : MacOSX
+237446	16606	4697	onwatch	paying	PHP_js	1477072346	165.91.237.24	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+237447	16606	4697	start	paying	js	1477072351	165.91.237.24	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+237448	16606	4697	endat6	paying	js	1477072668	165.91.237.24	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+237683	15575	4697	onwatch	paying	PHP_js	1477312450	187.37.76.249	Chrome Generic : MacOSX
+237684	15575	4697	start	paying	js	1477312463	187.37.76.249	Chrome Generic : MacOSX
+237745	15575	4697	endat26	paying	js	1477329442	187.37.76.249	Chrome Generic : MacOSX
+237746	15575	4697	endat51	paying	js	1477329442	187.37.76.249	Chrome Generic : MacOSX
+239143	5665	4697	onwatch	paying	PHP_js	1478007468	216.57.142.178	Chrome Generic : MacOSX
+239144	5665	4697	start	paying	js	1478007469	216.57.142.178	Chrome Generic : MacOSX
+239145	5665	4697	half	paying	js	1478007471	216.57.142.178	Chrome Generic : MacOSX
+239146	5665	4697	endat124	paying	js	1478008734	216.57.142.178	Chrome Generic : MacOSX
+239164	5665	4697	onwatch	paying	PHP_js	1478015790	216.57.142.178	Chrome Generic : MacOSX
+239165	5665	4697	start	paying	js	1478015791	216.57.142.178	Chrome Generic : MacOSX
+239166	5665	4697	half	paying	js	1478016181	216.57.142.178	Chrome Generic : MacOSX
+239177	5665	4697	endat99	paying	js	1478017776	216.57.142.178	Chrome Generic : MacOSX
+239761	16447	4697	onwatch	paying	PHP_js	1478136942	202.65.196.242	Chrome Generic : MacOSX
+239773	16447	4697	onwatch	paying	PHP_js	1478146117	202.65.196.242	Chrome Generic : MacOSX
+239774	16447	4697	start	paying	js	1478146164	202.65.196.242	Chrome Generic : MacOSX
+239777	16447	4697	half	paying	js	1478149049	202.65.196.242	Chrome Generic : MacOSX
+239778	16447	4697	endat60	paying	js	1478149737	202.65.196.242	Chrome Generic : MacOSX
+240601	16684	4697	onwatch	paying	PHP_js	1478556909	199.175.219.1	Chrome Generic : Win7
+240602	16684	4697	start	paying	js	1478556915	199.175.219.1	Chrome Generic : Win7
+240626	15575	4697	onwatch	paying	PHP_js	1478566552	189.62.182.98	Chrome Generic : MacOSX
+240628	15575	4697	start	paying	js	1478566658	189.62.182.98	Chrome Generic : MacOSX
+240629	15575	4697	endat36	paying	js	1478566983	189.62.182.98	Chrome Generic : MacOSX
+240683	17268	4697	onwatch	paying	PHP_js	1478579992	50.53.167.80	Chrome Generic : MacOSX
+240687	17268	4697	endat0	paying	js	1478580621	50.53.167.80	Chrome Generic : MacOSX
+240939	17277	4697	onwatch	trial	PHP_js	1478653349	74.108.26.134	Chrome Generic : MacOSX
+240940	17277	4697	start	trial	js	1478653357	74.108.26.134	Chrome Generic : MacOSX
+240945	17277	4697	endat0	trial	js	1478654484	74.108.26.134	Chrome Generic : MacOSX
+241784	7574	4697	onwatch	paying	PHP_js	1478883489	72.38.77.178	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0
+241785	7574	4697	start	paying	js	1478883496	72.38.77.178	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0
+241793	7574	4697	half	paying	js	1478886360	72.38.77.178	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0
+241794	7574	4697	half	paying	js	1478886366	72.38.77.178	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0
+242095	8558	4697	onwatch	paying	PHP_js	1479103636	128.107.241.180	Chrome Generic : MacOSX
+242096	8558	4697	start	paying	js	1479103639	128.107.241.180	Chrome Generic : MacOSX
+243393	14674	4697	onwatch	paying	PHP_js	1479661440	206.55.179.227	Safari Generic : MacOSX : js
+243394	14674	4697	start	paying	js	1479661442	206.55.179.227	Safari Generic : MacOSX : js
+243395	14674	4697	half	paying	js	1479661444	206.55.179.227	Safari Generic : MacOSX : js
+243424	14674	4697	endat95	paying	js	1479676209	206.55.179.227	Safari Generic : MacOSX : js
+244046	15395	4697	onwatch	paying	PHP_js	1479923526	106.51.29.22	Chrome Generic : MacOSX
+244047	15395	4697	start	paying	js	1479923531	106.51.29.22	Chrome Generic : MacOSX
+244062	15395	4697	endat14	paying	js	1479926057	106.51.29.22	Chrome Generic : MacOSX
+244063	15395	4697	onwatch	paying	PHP_js	1479926057	106.51.29.22	Chrome Generic : MacOSX
+244064	15395	4697	start	paying	js	1479926060	106.51.29.22	Chrome Generic : MacOSX
+246503	17444	4697	onwatch	paying	PHP_js	1481046517	24.108.176.250	Safari Generic : MacOSX : js
+246506	17444	4697	start	paying	js	1481046633	24.108.176.250	Safari Generic : MacOSX : js
+246524	17444	4697	half	paying	js	1481049972	24.108.176.250	Safari Generic : MacOSX : js
+246541	17444	4697	endat99	paying	js	1481052700	24.108.176.250	Safari Generic : MacOSX : js
+248425	9071	4697	onwatch	paying	PHP_js	1481908160	4.14.133.18	Safari Generic : MacOSX : js
+248426	9071	4697	endat0	paying	js	1481908176	4.14.133.18	Safari Generic : MacOSX : js
+249964	10752	4697	onwatch	paying	PHP_js	1482872663	172.0.88.166	Safari Generic : MacOSX : js
+249965	10752	4697	start	paying	js	1482872672	172.0.88.166	Safari Generic : MacOSX : js
+249970	10752	4697	endat27	paying	js	1482874192	172.0.88.166	Safari Generic : MacOSX : js
+249971	10752	4697	onwatch	paying	PHP_js	1482874192	172.0.88.166	Safari Generic : MacOSX : js
+249972	10752	4697	start	paying	js	1482874194	172.0.88.166	Safari Generic : MacOSX : js
+249978	10752	4697	endat36	paying	js	1482874679	172.0.88.166	Safari Generic : MacOSX : js
+249979	10752	4697	onwatch	paying	PHP_js	1482874680	172.0.88.166	Safari Generic : MacOSX : js
+249980	10752	4697	start	paying	js	1482874681	172.0.88.166	Safari Generic : MacOSX : js
+249981	10752	4697	half	paying	js	1482875492	172.0.88.166	Safari Generic : MacOSX : js
+249992	10752	4697	endat100	paying	js	1482880244	172.0.88.166	Safari Generic : MacOSX : js
+250109	10752	4697	onwatch	paying	PHP_js	1482946826	172.0.88.166	Safari Generic : MacOSX : js
+250110	10752	4697	start	paying	js	1482946828	172.0.88.166	Safari Generic : MacOSX : js
+250111	10752	4697	half	paying	js	1482946830	172.0.88.166	Safari Generic : MacOSX : js
+250112	10752	4697	endat99	paying	js	1482946834	172.0.88.166	Safari Generic : MacOSX : js
+250512	10752	4697	onwatch	paying	PHP_js	1483114898	172.0.88.166	Safari Generic : MacOSX : js
+250513	10752	4697	endat99	paying	js	1483114898	172.0.88.166	Safari Generic : MacOSX : js
+250514	10752	4697	start	paying	js	1483114900	172.0.88.166	Safari Generic : MacOSX : js
+250515	10752	4697	half	paying	js	1483114901	172.0.88.166	Safari Generic : MacOSX : js
+250516	10752	4697	endat99	paying	js	1483115378	172.0.88.166	Safari Generic : MacOSX : js
+250517	10752	4697	endat99	paying	js	1483115379	172.0.88.166	Safari Generic : MacOSX : js
+250830	10752	4697	start	paying	js	1483315061	172.0.88.166	Safari Generic : MacOSX : js
+250831	10752	4697	onwatch	paying	PHP_js	1483315061	172.0.88.166	Safari Generic : MacOSX : js
+250832	10752	4697	half	paying	js	1483315061	172.0.88.166	Safari Generic : MacOSX : js
+250987	16753	4697	onwatch	paying	PHP_js	1483446741	170.252.248.201	Chrome Generic : MacOSX
+250988	16753	4697	start	paying	js	1483446747	170.252.248.201	Chrome Generic : MacOSX
+251004	16753	4697	half	paying	js	1483449347	170.252.248.201	Chrome Generic : MacOSX
+251202	16753	4697	endat99	paying	js	1483490043	170.252.248.201	Chrome Generic : MacOSX
+251203	16753	4697	endat121	paying	js	1483490046	170.252.248.201	Chrome Generic : MacOSX
+251308	17273	4697	onwatch	paying	PHP_js	1483547126	199.116.168.16	Chrome Generic : MacOSX
+251310	17273	4697	start	paying	js	1483547186	199.116.168.16	Chrome Generic : MacOSX
+251421	15489	4697	onwatch	paying	PHP_js	1483566269	142.103.103.129	Chrome Generic : MacOSX
+251422	15489	4697	start	paying	js	1483566276	142.103.103.129	Chrome Generic : MacOSX
+251447	15489	4697	endat8	paying	js	1483575729	142.103.103.129	Chrome Generic : MacOSX
+251723	14985	4697	onwatch	paying	PHP_js	1483710473	136.61.133.231	Chrome Generic : MacOSX
+251724	14985	4697	start	paying	js	1483710476	136.61.133.231	Chrome Generic : MacOSX
+251740	14985	4697	endat15	paying	js	1483716195	136.61.133.231	Chrome Generic : MacOSX
+251741	14985	4697	onwatch	paying	PHP_js	1483716231	136.61.133.231	Chrome Generic : MacOSX
+251833	14985	4697	endat0	paying	js	1483748157	136.61.133.231	Chrome Generic : MacOSX
+252204	14311	4697	onwatch	paying	PHP_js	1483903123	90.149.245.35	Chrome Generic : MacOSX
+252206	14311	4697	endat0	paying	js	1483903142	90.149.245.35	Chrome Generic : MacOSX
+252596	17597	4697	onwatch	paying	PHP_js	1484062588	199.198.223.104	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+252597	17597	4697	start	paying	js	1484062890	199.198.223.104	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+252598	17597	4697	half	paying	js	1484063088	199.198.223.104	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+252632	4839	4697	onwatch	trial	PHP_js	1484069984	12.176.249.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252633	4839	4697	onwatch	trial	PHP_js	1484069990	12.176.249.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252635	17597	4697	endat427	paying	js	1484070113	199.198.223.104	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+252636	17597	4697	finished	paying	js	1484070119	199.198.223.104	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+252645	4839	4697	start	trial	js	1484070687	12.176.249.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252689	4839	4697	half	trial	js	1484076708	12.176.249.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252701	4839	4697	endat86	trial	js	1484078735	12.176.249.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252706	4839	4697	endat0	trial	js	1484079450	12.176.249.232	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252868	4839	4697	onwatch	trial	PHP_js	1484147470	167.242.50.39	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252869	4839	4697	start	trial	js	1484147566	167.242.50.39	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252870	4839	4697	half	trial	js	1484147568	167.242.50.39	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252871	4839	4697	onwatch	trial	PHP_js	1484148146	167.242.50.39	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252873	4839	4697	endat0	trial	js	1484148156	167.242.50.39	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252895	4839	4697	endat168	trial	js	1484151902	167.242.50.39	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+252985	16768	4697	onwatch	paying	PHP_js	1484173664	50.181.111.13	Chrome Generic : MacOSX
+252986	16768	4697	endat0	paying	js	1484173669	50.181.111.13	Chrome Generic : MacOSX
+253534	17677	4697	onwatch	trial	PHP_js	1484456225	203.110.242.7	Chrome Generic : MacOSX
+253544	17677	4697	start	trial	js	1484458053	203.110.242.7	Chrome Generic : MacOSX
+253546	17677	4697	endat0	trial	js	1484458106	203.110.242.7	Chrome Generic : MacOSX
+253711	14311	4697	onwatch	paying	PHP_js	1484555246	193.34.40.30	Safari Generic : MacOSX : js
+253712	14311	4697	start	paying	js	1484555254	193.34.40.30	Safari Generic : MacOSX : js
+254092	14674	4697	onwatch	paying	PHP_js	1484690059	161.225.196.111	Safari Generic : MacOSX : js
+254093	14674	4697	start	paying	js	1484690061	161.225.196.111	Safari Generic : MacOSX : js
+254094	14674	4697	half	paying	js	1484690064	161.225.196.111	Safari Generic : MacOSX : js
+254095	14674	4697	endat93	paying	js	1484690072	161.225.196.111	Safari Generic : MacOSX : js
+255100	14444	4697	onwatch	paying	PHP_js	1484946547	66.192.63.2	Chrome Generic : Win7
+255102	14444	4697	start	paying	js	1484946773	66.192.63.2	Chrome Generic : Win7
+255106	14444	4697	endat21	paying	js	1484948128	66.192.63.2	Chrome Generic : Win7
+255107	14444	4697	onwatch	paying	PHP_js	1484948170	66.192.63.2	Chrome Generic : Win7
+255108	14444	4697	start	paying	js	1484948172	66.192.63.2	Chrome Generic : Win7
+255121	14444	4697	endat48	paying	js	1484950034	66.192.63.2	Chrome Generic : Win7
+255368	17378	4697	onwatch	paying	PHP_js	1485165446	212.72.36.2	Chrome Generic : MacOSX
+255642	4479	4697	onwatch	paying	PHP_js	1485205196	201.201.215.15	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:41.0) Gecko/20100101 Firefox/41.0
+255643	4479	4697	endat0	paying	js	1485205220	201.201.215.15	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:41.0) Gecko/20100101 Firefox/41.0
+256268	14444	4697	onwatch	paying	PHP_js	1485443552	66.192.63.2	Chrome Generic : Win7
+256269	14444	4697	start	paying	js	1485443554	66.192.63.2	Chrome Generic : Win7
+256274	14444	4697	half	paying	js	1485443659	66.192.63.2	Chrome Generic : Win7
+256300	14444	4697	finished	paying	js	1485448875	66.192.63.2	Chrome Generic : Win7
+256301	14444	4697	endat148	paying	js	1485448880	66.192.63.2	Chrome Generic : Win7
+256825	15920	4697	onwatch	paying	PHP_js	1485739112	76.216.183.114	Chrome Generic : MacOSX
+256826	15920	4697	start	paying	js	1485739132	76.216.183.114	Chrome Generic : MacOSX
+256831	15920	4697	half	paying	js	1485741679	76.216.183.114	Chrome Generic : MacOSX
+256835	15920	4697	endat100	paying	js	1485744867	76.216.183.114	Chrome Generic : MacOSX
+257137	15219	4697	onwatch	paying	PHP_js	1485821778	96.233.33.132	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+257138	15219	4697	start	paying	js	1485821787	96.233.33.132	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+257139	15219	4697	half	paying	js	1485821790	96.233.33.132	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+257140	15219	4697	endat100	paying	js	1485822541	96.233.33.132	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+257141	15219	4697	onwatch	paying	PHP_js	1485822542	96.233.33.132	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+257142	15219	4697	start	paying	js	1485822546	96.233.33.132	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+257143	15219	4697	half	paying	js	1485822546	96.233.33.132	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+257148	15219	4697	endat86	paying	js	1485823709	96.233.33.132	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+258103	15839	4697	onwatch	paying	PHP_js	1486047986	141.202.54.2	Chrome Generic : MacOSX
+258104	15839	4697	start	paying	js	1486047993	141.202.54.2	Chrome Generic : MacOSX
+258108	15839	4697	endat0	paying	js	1486048172	141.202.54.2	Chrome Generic : MacOSX
+258109	15839	4697	onwatch	paying	PHP_js	1486048173	141.202.54.2	Chrome Generic : MacOSX
+258114	15839	4697	onwatch	paying	PHP_js	1486048892	141.202.54.2	Chrome Generic : MacOSX
+258116	15839	4697	start	paying	js	1486048958	141.202.54.2	Chrome Generic : MacOSX
+258208	15839	4697	half	paying	js	1486061674	141.202.54.2	Chrome Generic : MacOSX
+258216	15839	4697	finished	paying	js	1486064165	141.202.54.2	Chrome Generic : MacOSX
+258316	15839	4697	endat100	paying	js	1486072889	141.202.54.2	Chrome Generic : MacOSX
+259225	17315	4697	onwatch	paying	PHP_js	1486497316	98.118.32.33	Chrome Generic : MacOSX
+259226	17315	4697	endat0	paying	js	1486497373	98.118.32.33	Chrome Generic : MacOSX
+259227	17315	4697	onwatch	paying	PHP_js	1486497375	98.118.32.33	Chrome Generic : MacOSX
+259228	17315	4697	endat0	paying	js	1486497378	98.118.32.33	Chrome Generic : MacOSX
+260371	17823	4697	onwatch	paying	PHP_js	1486753474	199.198.251.107	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+260372	17823	4697	onwatch	paying	PHP_js	1486753480	199.198.251.107	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+260374	17823	4697	start	paying	js	1486753487	199.198.251.107	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+260402	17823	4697	endat30	paying	js	1486759257	199.198.251.107	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+261061	5329	4697	onwatch	paying	PHP_js	1486996309	92.111.18.11	Chrome Generic : MacOSX
+261062	5329	4697	start	paying	js	1486996314	92.111.18.11	Chrome Generic : MacOSX
+261073	5329	4697	endat0	paying	js	1486997614	92.111.18.11	Chrome Generic : MacOSX
+263105	11325	4697	onwatch	paying	PHP_js	1487885807	134.48.164.147	Chrome Generic : MacOSX
+263106	11325	4697	start	paying	js	1487885812	134.48.164.147	Chrome Generic : MacOSX
+263114	11325	4697	endat9	paying	js	1487886241	134.48.164.147	Chrome Generic : MacOSX
+263115	11325	4697	onwatch	paying	PHP_js	1487886242	134.48.164.147	Chrome Generic : MacOSX
+263117	11325	4697	start	paying	js	1487886245	134.48.164.147	Chrome Generic : MacOSX
+263123	11325	4697	endat15	paying	js	1487886655	134.48.164.147	Chrome Generic : MacOSX
+263960	17820	4697	onwatch	paying	PHP_js	1488313834	24.247.145.126	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+263961	17820	4697	start	paying	js	1488313842	24.247.145.126	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+263978	17820	4697	endat22	paying	js	1488320637	24.247.145.126	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+263979	7288	4697	onwatch	paying	PHP_js	1488320783	120.136.2.164	Chrome Generic : MacOSX
+263980	7288	4697	start	paying	js	1488320788	120.136.2.164	Chrome Generic : MacOSX
+263981	7288	4697	half	paying	js	1488320802	120.136.2.164	Chrome Generic : MacOSX
+263982	7288	4697	endat66	paying	js	1488320815	120.136.2.164	Chrome Generic : MacOSX
+264128	17820	4697	onwatch	paying	PHP_js	1488387529	24.247.145.126	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+264130	17820	4697	start	paying	js	1488387538	24.247.145.126	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+264131	17820	4697	start	paying	js	1488387549	24.247.145.126	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+264137	17820	4697	half	paying	js	1488388913	24.247.145.126	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+264154	17820	4697	endat80	paying	js	1488393310	24.247.145.126	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+264541	11325	4697	onwatch	paying	PHP_js	1488489160	134.48.167.86	Chrome Generic : MacOSX
+264542	11325	4697	start	paying	js	1488489163	134.48.167.86	Chrome Generic : MacOSX
+264546	11325	4697	endat23	paying	js	1488489668	134.48.167.86	Chrome Generic : MacOSX
+265050	13452	4697	onwatch	paying	PHP_js	1488716974	81.92.27.224	Safari Generic : MacOSX : js
+265058	13452	4697	start	paying	js	1488719077	81.92.27.224	Safari Generic : MacOSX : js
+265060	13452	4697	endat0	paying	js	1488719191	81.92.27.224	Safari Generic : MacOSX : js
+265061	13452	4697	onwatch	paying	PHP_js	1488719192	81.92.27.224	Safari Generic : MacOSX : js
+265062	13452	4697	start	paying	js	1488719544	81.92.27.224	Safari Generic : MacOSX : js
+265834	15925	4697	onwatch	paying	PHP_js	1489004227	69.126.51.14	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+265836	15925	4697	start	paying	js	1489004335	69.126.51.14	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+265850	15925	4697	half	paying	js	1489006831	69.126.51.14	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+265851	15925	4697	half	paying	js	1489006842	69.126.51.14	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+265857	15925	4697	finished	paying	js	1489009321	69.126.51.14	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+265858	15925	4697	endat100	paying	js	1489009326	69.126.51.14	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+266628	18003	4697	onwatch	paying	PHP_js	1489237734	69.247.169.141	Chrome Generic : MacOSX
+266629	18003	4697	endat0	paying	js	1489237989	69.247.169.141	Chrome Generic : MacOSX
+267745	18029	4697	onwatch	trial	PHP_js	1489613731	129.101.60.133	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+267746	18029	4697	start	trial	js	1489613752	129.101.60.133	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+267760	18029	4697	endat2	trial	js	1489614242	129.101.60.133	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+267761	18029	4697	onwatch	trial	PHP_js	1489614348	129.101.60.133	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+267762	18029	4697	start	trial	js	1489614352	129.101.60.133	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+267766	18029	4697	endat27	trial	js	1489615650	129.101.60.133	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+267767	18029	4697	half	trial	js	1489615651	129.101.60.133	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+268304	14650	4697	onwatch	paying	PHP_js	1489815054	50.174.127.131	Chrome Generic : MacOSX
+268425	18098	4697	onwatch	paying	PHP_js	1489886309	209.36.2.103	Chrome Generic : MacOSX
+268426	18098	4697	endat0	paying	js	1489886318	209.36.2.103	Chrome Generic : MacOSX
+269703	13452	4697	onwatch	paying	PHP_js	1490351187	171.20.68.75	Safari Generic : MacOSX : js
+269704	13452	4697	start	paying	js	1490351190	171.20.68.75	Safari Generic : MacOSX : js
+269711	13452	4697	half	paying	js	1490358333	171.20.68.75	Safari Generic : MacOSX : js
+270957	15062	4697	onwatch	paying	PHP_js	1491099895	185.16.85.56	Chrome Generic : MacOSX
+270958	15062	4697	start	paying	js	1491099921	185.16.85.56	Chrome Generic : MacOSX
+270964	15062	4697	endat35	paying	js	1491101273	78.157.209.139	Chrome Generic : MacOSX
+270965	15062	4697	onwatch	paying	PHP_js	1491101274	78.157.209.139	Chrome Generic : MacOSX
+270967	15062	4697	start	paying	js	1491101276	78.157.209.139	Chrome Generic : MacOSX
+270971	15062	4697	endat1	paying	js	1491102410	222.153.191.109	Chrome Generic : MacOSX
+270972	15062	4697	onwatch	paying	PHP_js	1491102410	222.153.191.109	Chrome Generic : MacOSX
+270973	15062	4697	start	paying	js	1491102412	222.153.191.109	Chrome Generic : MacOSX
+271009	15062	4697	half	paying	js	1491116626	222.153.191.109	Chrome Generic : MacOSX
+271012	15062	4697	endat99	paying	js	1491121557	222.153.191.109	Chrome Generic : MacOSX
+272585	6075	4697	onwatch	trial	PHP_js	1491860775	74.138.215.144	Chrome Generic : MacOSX
+272586	6075	4697	start	trial	js	1491860779	74.138.215.144	Chrome Generic : MacOSX
+272593	6075	4697	half	trial	js	1491863373	74.138.215.144	Chrome Generic : MacOSX
+272596	6075	4697	finished	trial	js	1491865864	74.138.215.144	Chrome Generic : MacOSX
+272739	17979	4697	onwatch	paying	PHP_js	1491942111	162.231.150.31	Chrome Generic : MacOSX
+272740	17979	4697	start	paying	js	1491942116	162.231.150.31	Chrome Generic : MacOSX
+272748	17872	4697	onwatch	trial	PHP_js	1491947808	216.49.181.251	Chrome Generic : MacOSX
+272749	17872	4697	start	trial	js	1491947823	216.49.181.251	Chrome Generic : MacOSX
+272770	17979	4697	endat7	paying	js	1491952920	162.231.150.31	Chrome Generic : MacOSX
+272790	6075	4697	endat100	trial	js	1491958982	12.233.209.130	Chrome Generic : MacOSX
+272868	17872	4697	endat11	trial	js	1492008657	216.49.181.251	Chrome Generic : MacOSX
+273239	18141	4697	onwatch	paying	PHP_js	1492118128	174.108.105.90	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+273240	18141	4697	start	paying	js	1492118132	174.108.105.90	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+273242	18141	4697	endat17	paying	js	1492119492	174.108.105.90	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+273524	18098	4697	onwatch	paying	PHP_js	1492377339	73.188.171.88	Chrome Generic : MacOSX
+273525	18098	4697	start	paying	js	1492377606	73.188.171.88	Chrome Generic : MacOSX
+273526	18098	4697	half	paying	js	1492380339	73.188.171.88	Chrome Generic : MacOSX
+273534	18098	4697	finished	paying	js	1492387735	73.188.171.88	Chrome Generic : MacOSX
+273535	18098	4697	endat100	paying	js	1492388789	73.188.171.88	Chrome Generic : MacOSX
+274008	5756	4697	onwatch	paying	PHP_js	1492606236	206.55.101.94	Chrome Generic : Win7
+274060	15575	4697	onwatch	paying	PHP_js	1492619970	146.82.224.178	Chrome Generic : MacOSX
+274061	15575	4697	start	paying	js	1492619972	146.82.224.178	Chrome Generic : MacOSX
+275270	16376	4697	onwatch	paying	PHP_js	1493294790	202.83.19.145	Chrome Generic : MacOSX
+275271	16376	4697	start	paying	js	1493294815	220.227.207.169	Chrome Generic : MacOSX
+275273	16376	4697	endat9	paying	js	1493297422	220.227.207.169	Chrome Generic : MacOSX
+275598	18332	4697	onwatch	paying	PHP_js	1493373240	188.64.27.186	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0
+275889	18332	4697	onwatch	paying	PHP_js	1493376943	188.64.27.186	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0
+279636	18332	4697	onwatch	paying	PHP_js	1494970976	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+279939	18332	4697	onwatch	paying	PHP_js	1494972759	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+280185	18332	4697	onwatch	paying	PHP_js	1494976535	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+280494	18332	4697	onwatch	paying	PHP_js	1494976706	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+280753	18332	4697	onwatch	paying	PHP_js	1494977144	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+281034	18332	4697	onwatch	paying	PHP_js	1494977229	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+281338	18332	4697	onwatch	paying	PHP_js	1494977360	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+281615	18332	4697	onwatch	paying	PHP_js	1494977481	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+282047	18332	4697	onwatch	paying	PHP_js	1494977724	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+282112	18332	4697	onwatch	paying	PHP_js	1494977788	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+282435	18332	4697	onwatch	paying	PHP_js	1494979591	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+282740	18332	4697	onwatch	paying	PHP_js	1494979807	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+283017	18332	4697	onwatch	paying	PHP_js	1494980102	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+283427	18332	4697	onwatch	paying	PHP_js	1494980382	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+283752	18332	4697	onwatch	paying	PHP_js	1494980831	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+283839	18332	4697	onwatch	paying	PHP_js	1494981047	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+284174	18332	4697	onwatch	paying	PHP_js	1494981347	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+284402	18332	4697	onwatch	paying	PHP_js	1494981698	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+284687	18332	4697	onwatch	paying	PHP_js	1494982211	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+284991	18332	4697	onwatch	paying	PHP_js	1494982406	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+285246	18332	4697	onwatch	paying	PHP_js	1494982924	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+285560	18332	4697	onwatch	paying	PHP_js	1494983137	188.64.27.136	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0
+286048	18478	4697	onwatch	paying	PHP_js	1495110097	62.68.247.18	Chrome Generic : MacOSX
+286049	18478	4697	start	paying	js	1495110102	62.68.247.18	Chrome Generic : MacOSX
+286050	18478	4697	endat3	paying	js	1495110273	62.68.247.18	Chrome Generic : MacOSX
+288655	18478	4697	onwatch	paying	PHP_js	1496131564	62.68.247.18	Chrome Generic : MacOSX
+288656	18478	4697	start	paying	js	1496131568	62.68.247.18	Chrome Generic : MacOSX
+288657	18478	4697	onwatch	paying	PHP_js	1496132235	62.68.247.18	Chrome Generic : MacOSX
+288658	18478	4697	start	paying	js	1496132237	62.68.247.18	Chrome Generic : MacOSX
+288659	18478	4697	endat3	paying	js	1496132264	62.68.247.18	Chrome Generic : MacOSX
+288726	18625	4697	onwatch	trial	PHP_js	1496149975	159.53.110.143	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+288727	18625	4697	start	trial	js	1496149982	159.53.110.143	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+288728	18625	4697	half	trial	js	1496149993	159.53.110.143	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+288734	18625	4697	finished	trial	js	1496152029	159.53.110.143	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+288735	18625	4697	endat100	trial	js	1496152139	159.53.110.143	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+289359	18337	4697	onwatch	paying	PHP_js	1496340600	2.123.52.123	Safari Generic : MacOSX : js
+289360	18337	4697	onwatch	paying	PHP_js	1496340608	2.123.52.123	Safari Generic : MacOSX : js
+290006	18172	4697	onwatch	paying	PHP_js	1496692298	64.211.194.118	Safari Generic : MacOSX : js
+290007	18172	4697	start	paying	js	1496692330	64.211.194.118	Safari Generic : MacOSX : js
+290036	18172	4697	endat11	paying	js	1496699224	64.211.194.118	Safari Generic : MacOSX : js
+291178	18668	4697	onwatch	paying	PHP_js	1497313956	203.35.135.171	Chrome Generic : MacOSX
+291179	18668	4697	start	paying	js	1497313962	203.35.135.171	Chrome Generic : MacOSX
+291711	18668	4697	endat15	paying	js	1497583250	203.35.135.168	Chrome Generic : MacOSX
+291912	18597	4697	onwatch	paying	PHP_js	1497736717	82.77.109.251	Safari Generic : MacOSX : js
+291913	18597	4697	start	paying	js	1497736723	82.77.109.251	Safari Generic : MacOSX : js
+291914	18597	4697	half	paying	js	1497736738	82.77.109.251	Safari Generic : MacOSX : js
+291915	18597	4697	endat93	paying	js	1497736761	82.77.109.251	Safari Generic : MacOSX : js
+292106	18141	4697	onwatch	paying	PHP_js	1497901976	174.108.105.90	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+292107	18141	4697	endat0	paying	js	1497901983	174.108.105.90	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+292924	18749	4697	onwatch	paying	PHP_js	1498302405	101.127.156.65	Chrome Generic : MacOSX
+292925	18749	4697	start	paying	js	1498302415	101.127.156.65	Chrome Generic : MacOSX
+292926	18749	4697	endat5	paying	js	1498302678	101.127.156.65	Chrome Generic : MacOSX
+293356	18749	4697	onwatch	paying	PHP_js	1498476812	101.127.156.65	Chrome Generic : MacOSX
+293357	18749	4697	start	paying	js	1498476814	101.127.156.65	Chrome Generic : MacOSX
+293358	18749	4697	endat23	paying	js	1498476857	101.127.156.65	Chrome Generic : MacOSX
+294822	18764	4697	onwatch	paying	PHP_js	1498778780	196.52.2.111	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0
+294823	18764	4697	start	paying	js	1498778791	196.52.2.111	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0
+294824	18764	4697	endat0	paying	js	1498778808	196.52.2.111	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0
+295046	17755	4697	onwatch	paying	PHP_js	1498830913	69.61.132.169	Chrome Generic : MacOSX
+295047	17755	4697	start	paying	js	1498830921	69.61.132.169	Chrome Generic : MacOSX
+295064	17755	4697	endat8	paying	js	1498834495	69.61.132.169	Chrome Generic : MacOSX
+297704	16408	4697	onwatch	paying	PHP_js	1500578465	72.70.60.169	Chrome Generic : MacOSX
+301241	4285	4697	onwatch	paying	PHP_js	1502832972	4.35.103.126	Safari Generic : MacOSX : js
+301242	4285	4697	start	paying	js	1502832978	4.35.103.126	Safari Generic : MacOSX : js
+301243	4285	4697	half	paying	js	1502833307	4.35.103.126	Safari Generic : MacOSX : js
+301244	4285	4697	endat65	paying	js	1502833400	4.35.103.126	Safari Generic : MacOSX : js
+301245	4285	4697	endat65	paying	js	1502833404	4.35.103.126	Safari Generic : MacOSX : js
+301246	4285	4697	endat65	paying	js	1502833404	4.35.103.126	Safari Generic : MacOSX : js
+301319	4285	4697	onwatch	paying	PHP_js	1502890540	166.76.0.1	Chrome Generic : MacOSX
+301320	4285	4697	start	paying	js	1502890541	166.76.0.1	Chrome Generic : MacOSX
+301321	4285	4697	half	paying	js	1502890545	166.76.0.1	Chrome Generic : MacOSX
+301322	4285	4697	endat84	paying	js	1502891804	166.76.0.1	Chrome Generic : MacOSX
+303413	18670	4697	onwatch	paying	PHP_js	1504036096	173.226.197.2	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
+303414	18670	4697	start	paying	js	1504036106	173.226.197.2	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
+303416	18670	4697	endat4	paying	js	1504036269	173.226.197.2	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
+305063	19065	4697	onwatch	paying	PHP_js	1504728723	159.45.129.12	Chrome Generic : MacOSX
+305064	19065	4697	onwatch	paying	PHP_js	1504728734	159.45.129.12	Chrome Generic : MacOSX
+305065	19065	4697	onwatch	paying	PHP_js	1504728741	159.45.129.12	Chrome Generic : MacOSX
+305066	19065	4697	start	paying	js	1504728756	159.45.129.12	Chrome Generic : MacOSX
+305075	19065	4697	half	paying	js	1504731264	159.45.129.12	Chrome Generic : MacOSX
+305538	18633	4697	onwatch	trial	PHP_no_js	1504813998	75.150.120.245	Chrome Generic : MacOSX
+305561	18633	4697	start	trial	js	1504814137	75.150.120.245	Chrome Generic : MacOSX
+305567	18633	4697	endat0	trial	js	1504814151	75.150.120.245	Chrome Generic : MacOSX
+305721	19045	4697	onwatch	paying	PHP_no_js	1504884924	142.20.16.6	Chrome Generic : MacOSX
+305722	19045	4697	start	paying	js	1504884946	142.20.16.6	Chrome Generic : MacOSX
+305734	19045	4697	half	paying	js	1504889431	142.20.16.6	Chrome Generic : MacOSX
+305771	19045	4697	endat51	paying	js	1504902415	142.20.16.6	Chrome Generic : MacOSX
+306330	19065	4697	endat82	paying	js	1505229855	159.45.71.13	Chrome Generic : MacOSX
+307379	19018	4697	onwatch	paying	PHP_js	1505762100	4.14.170.242	Chrome Generic : MacOSX
+307385	19018	4697	start	paying	js	1505764436	4.14.170.242	Chrome Generic : MacOSX
+307401	19018	4697	half	paying	js	1505767879	4.14.170.242	Chrome Generic : MacOSX
+307749	17927	4697	onwatch	paying	PHP_js	1505904864	217.138.22.50	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+307755	17927	4697	endat0	paying	js	1505905380	217.138.22.50	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+307783	14847	4697	onwatch	paying	PHP_js	1505908295	194.78.87.75	Chrome Generic : MacOSX
+307784	14847	4697	start	paying	js	1505908302	194.78.87.75	Chrome Generic : MacOSX
+307984	14847	4697	endat10	paying	js	1505975275	194.78.87.75	Chrome Generic : MacOSX
+308670	18488	4697	onwatch	paying	PHP_js	1506350916	74.106.236.34	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+308672	18488	4697	start	paying	js	1506353507	74.106.236.34	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+308674	18488	4697	half	paying	js	1506356005	74.106.236.34	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+308695	18488	4697	endat128	paying	js	1506359505	74.106.236.34	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+309110	19018	4697	endat67	paying	js	1506538118	4.14.170.242	Chrome Generic : MacOSX
+313520	19297	4697	onwatch	trial	PHP_no_js	1509318378	73.114.116.137	Safari Generic : MacOSX : js
+313521	19297	4697	start	trial	js	1509318389	73.114.116.137	Safari Generic : MacOSX : js
+315084	14855	4697	onwatch	paying	PHP_no_js	1510292102	79.180.48.25	Chrome Generic : MacOSX
+315085	14855	4697	start	paying	js	1510292107	79.180.48.25	Chrome Generic : MacOSX
+315841	14855	4697	endat0	paying	js	1510733135	31.168.5.122	Chrome Generic : MacOSX
+318228	19456	4697	onwatch	paying	PHP_js	1512394583	78.0.96.129	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+318241	19456	4697	endat0	paying	js	1512394764	78.0.96.129	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+319523	19495	4697	onwatch	paying	PHP_no_js	1513182732	195.81.245.98	Chrome Generic : MacOSX
+319524	19495	4697	start	paying	js	1513182743	195.81.245.98	Chrome Generic : MacOSX
+321067	17793	4697	onwatch	paying	PHP_js	1514050690	93.39.137.168	Chrome Generic : MacOSX
+321077	17793	4697	endat0	paying	js	1514050952	93.39.137.168	Chrome Generic : MacOSX
+321404	17793	4697	onwatch	paying	PHP_js	1514131532	93.39.137.168	Chrome Generic : MacOSX
+321412	17793	4697	endat0	paying	js	1514131686	93.39.137.168	Chrome Generic : MacOSX
+325695	18346	4697	onwatch	paying	PHP_no_js	1516813754	65.152.253.82	Chrome Generic : MacOSX
+325696	18346	4697	start	paying	js	1516813897	65.152.253.82	Chrome Generic : MacOSX
+325767	18346	4697	half	paying	js	1516827672	65.152.253.82	Chrome Generic : MacOSX
+326422	4194	4697	onwatch	trial	PHP_no_js	1517371262	24.14.146.131	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+326423	4194	4697	start	trial	js	1517371273	24.14.146.131	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+326424	4194	4697	endat0	trial	js	1517371308	24.14.146.131	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+326425	4194	4697	onwatch	trial	PHP_no_js	1517371364	24.14.146.131	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+326426	4194	4697	start	trial	js	1517371494	24.14.146.131	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+326432	4194	4697	half	trial	js	1517374314	24.14.146.131	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+326433	4194	4697	finished	trial	js	1517377011	24.14.146.131	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+326832	19667	4697	onwatch	paying	PHP_no_js	1517627986	223.72.106.183	Chrome Generic : Linux
+327140	19667	4697	onwatch	paying	PHP_no_js	1517638669	223.72.106.183	Chrome Generic : Linux
+327246	19667	4697	onwatch	paying	PHP_no_js	1517650077	168.235.92.149	Chrome Generic : Linux
+327645	18346	4697	onwatch	paying	PHP_no_js	1517855830	65.152.253.82	Chrome Generic : MacOSX
+327646	18346	4697	start	paying	js	1517855832	65.152.253.82	Chrome Generic : MacOSX
+327647	18346	4697	half	paying	js	1517855836	65.152.253.82	Chrome Generic : MacOSX
+327652	18346	4697	endat92	paying	js	1517856825	65.152.253.82	Chrome Generic : MacOSX
+327653	18346	4697	start	paying	js	1517856832	65.152.253.82	Chrome Generic : MacOSX
+327654	18346	4697	half	paying	js	1517856833	65.152.253.82	Chrome Generic : MacOSX
+339790	19929	4697	onwatch	paying	PHP_no_js	1524845323	155.201.42.81	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+339793	19929	4697	start	paying	js	1524845422	155.201.42.81	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+339797	19929	4697	half	paying	js	1524847936	155.201.42.81	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+339806	19929	4697	endat91	paying	js	1524850036	155.201.42.81	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+345012	18491	4697	onwatch	paying	PHP_no_js	1528921667	104.238.46.2	Chrome Generic : MacOSX
+345013	18491	4697	endat0	paying	js	1528921730	104.238.46.2	Chrome Generic : MacOSX
+345068	18491	4697	onwatch	paying	PHP_no_js	1528926223	104.238.46.2	Chrome Generic : MacOSX
+345069	18491	4697	endat0	paying	js	1528926225	104.238.46.2	Chrome Generic : MacOSX
+345639	13152	4697	onwatch	paying	PHP_no_js	1529511987	130.105.186.105	Chrome Generic : MacOSX
+345640	13152	4697	start	paying	js	1529512043	130.105.186.105	Chrome Generic : MacOSX
+345649	13152	4697	half	paying	js	1529514541	130.105.186.105	Chrome Generic : MacOSX
+346070	13152	4697	onwatch	paying	PHP_no_js	1529753641	130.105.186.105	Chrome Generic : MacOSX
+346071	13152	4697	start	paying	js	1529753647	130.105.186.105	Chrome Generic : MacOSX
+346098	13152	4697	half	paying	js	1529762791	130.105.186.105	Chrome Generic : MacOSX
+346099	13152	4697	finished	paying	js	1529765658	130.105.186.105	Chrome Generic : MacOSX
+346100	13152	4697	endat102	paying	js	1529765710	130.105.186.105	Chrome Generic : MacOSX
+346101	13152	4697	endat118	paying	js	1529765711	130.105.186.105	Chrome Generic : MacOSX
+346465	18409	4697	onwatch	paying	PHP_no_js	1530109750	49.207.55.179	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+346466	18409	4697	start	paying	js	1530109761	49.207.55.179	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+346469	18409	4697	endat0	paying	js	1530112711	49.207.55.179	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+349946	18346	4697	onwatch	paying	PHP_no_js	1532705875	208.44.101.75	Chrome Generic : MacOSX
+349947	18346	4697	start	paying	js	1532705877	208.44.101.75	Chrome Generic : MacOSX
+349948	18346	4697	half	paying	js	1532705882	208.44.101.75	Chrome Generic : MacOSX
+350282	18346	4697	endat181	paying	js	1532974319	208.44.101.75	Chrome Generic : MacOSX
+353462	20227	4697	onwatch	paying	PHP_no_js	1535038742	12.132.186.74	Chrome Generic : MacOSX
+353463	20227	4697	start	paying	js	1535038795	12.132.186.74	Chrome Generic : MacOSX
+353488	20227	4697	half	paying	js	1535049890	12.132.186.74	Chrome Generic : MacOSX
+353490	20227	4697	endat74	paying	js	1535053410	12.132.186.74	Chrome Generic : MacOSX
+354271	10553	4697	onwatch	paying	PHP_no_js	1535665037	216.243.30.58	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+355730	10553	4697	onwatch	paying	PHP_no_js	1536344567	216.243.30.58	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+355731	10553	4697	onwatch	paying	PHP_no_js	1536344568	216.243.30.58	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+355732	10553	4697	endat0	paying	js	1536344633	216.243.30.58	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+357734	4554	4697	onwatch	paying	PHP_no_js	1537473516	173.172.148.210	Chrome Generic : MacOSX
+357735	4554	4697	start	paying	js	1537473524	173.172.148.210	Chrome Generic : MacOSX
+357736	4554	4697	endat0	paying	js	1537473538	173.172.148.210	Chrome Generic : MacOSX
+359381	19247	4697	start	trial	js	1538748889	67.63.143.254	Chrome Generic : MacOSX
+359405	10636	4697	onwatch	paying	PHP_no_js	1538757677	192.96.192.10	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:62.0) Gecko/20100101 Firefox/62.0
+359406	10636	4697	start	paying	js	1538757686	192.96.192.10	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:62.0) Gecko/20100101 Firefox/62.0
+359416	19247	4697	half	trial	js	1538762457	67.63.143.254	Chrome Generic : MacOSX
+359418	10636	4697	endat24	paying	js	1538763271	192.96.192.10	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:62.0) Gecko/20100101 Firefox/62.0
+359517	5735	4697	onwatch	paying	PHP_no_js	1538938606	190.102.6.103	Chrome Generic : MacOSX
+359518	5735	4697	start	paying	js	1538938615	190.102.6.103	Chrome Generic : MacOSX
+359531	20359	4697	start	trial	js	1538974252	124.47.137.25	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
+359532	20359	4697	half	trial	js	1538977040	124.47.137.25	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
+359533	20359	4697	finished	trial	js	1538980095	124.47.137.25	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
+359534	20359	4697	endat55	trial	js	1538980940	124.47.137.25	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
+359626	10096	4697	onwatch	paying	PHP_no_js	1539002104	38.140.156.74	Chrome Generic : Win7
+359627	10096	4697	start	paying	js	1539002116	38.140.156.74	Chrome Generic : Win7
+359634	10096	4697	endat20	paying	js	1539006681	38.140.156.74	Chrome Generic : Win7
+359784	8483	4697	onwatch	paying	PHP_no_js	1539104257	74.120.68.241	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+359785	8483	4697	start	paying	js	1539104267	74.120.68.241	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+359795	8483	4697	onwatch	paying	PHP_no_js	1539104592	74.120.68.243	Chrome Generic : Win7
+359797	8483	4697	start	paying	js	1539104607	74.120.68.243	Chrome Generic : Win7
+359802	8483	4697	endat10	paying	js	1539104807	74.120.68.241	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+359837	8483	4697	half	paying	js	1539111074	74.120.68.243	Chrome Generic : Win7
+359848	8483	4697	endat88	paying	js	1539113271	74.120.68.243	Chrome Generic : Win7
+360091	4315	4697	onwatch	paying	PHP_no_js	1539270305	199.181.21.129	Chrome Generic : MacOSX
+360092	4315	4697	start	paying	js	1539270317	199.181.21.129	Chrome Generic : MacOSX
+360093	4315	4697	half	paying	js	1539270335	199.181.21.129	Chrome Generic : MacOSX
+360186	4315	4697	endat58	paying	js	1539285799	199.181.21.129	Chrome Generic : MacOSX

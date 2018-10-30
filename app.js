@@ -2,15 +2,37 @@
 $(document).ready(function(){
 
   let emailData = [
-    { entry_id: "6829", title: "Mapping Experiences: It’s the Destination and the Journey", sendDate: 1531329455, engDate: "07/11/2018", fileName: "mappingExperiences.csv"},
-    {entry_id: "4812", title: "Sharing our Stories: Designing and Reviewing UX Portfolios", sendDate: 1531495771, engDate: "07/13/2018", fileName: "sharingOurStories.csv"},
-    {entry_id: "4997", title: "Measuring The Customer Experience Using Top Tasks", sendDate: 1531919432, engDate: "07/18/2018", fileName: "measuringTheCustomerExperience.csv"},
-    {entry_id: "3303", title: "A User-centered Approach to Product Planning and Visioning", sendDate: 1531329455, engDate: "07/20/2018", fileName: "aUserCenteredApproach.csv"},
+    { entry_id: "6829", title: "Mapping Experiences: It’s the Destination and the Journey", sendDate: 1531329455, engDate: "07/11/2018", fileName: "s6829.csv"},
+    {entry_id: "4812", title: "Sharing our Stories: Designing and Reviewing UX Portfolios", sendDate: 1531495771, engDate: "07/13/2018", fileName: "s4812.csv"},
+    {entry_id: "4997", title: "Measuring The Customer Experience Using Top Tasks", sendDate: 1531919432, engDate: "07/18/2018", fileName: "s4997.csv"},
+    {entry_id: "3303", title: "A User-centered Approach to Product Planning and Visioning", sendDate: 1531329455, engDate: "07/20/2018", fileName: "s3303.csv"},
     {entry_id: "10715", title: "IA lense(for test purposes)", sendDate: 1536765928, engDate: "09/12/2018", fileName: "testText.tsv"},
-    {entry_id: "10824", title: "How to Avoid a Runaway Redesign(testing purposes)", sendDate: 1539882079, engDate: "10/18/2018", fileName: "runawayRedesign.csv"}
-
+    {entry_id: "7566", title: "The Experience Is The Product", sendDate: 1540315821, engDate: "10/23/2018", fileName: "s7566.csv"},
+    {entry_id: "10824", title: "How to Avoid a Runaway Redesign(testing purposes)", sendDate: 1539882079, engDate: "10/18/2018", fileName: "runawayRedesign.csv"},
+    {entry_id: "8882", title: "Onboarding for Behavior Change", sendDate: 1539181239, engDate: "10/10/2018", fileName: "s8882.csv"},
+    {entry_id: "4697", title: "A Tour of Today’s Online Style Guides", sendDate: 1538786602, engDate: "10/05/2018", fileName: "s4697.csv"},
+    {entry_id: "5495", title: "Balancing Continuous Discovery and Delivery", sendDate: 1538386496, engDate: "10/01/2018", fileName: "s5495.csv"},
+    {entry_id: "5061", title: "Using Visual Models to Solve Big Design Problems", sendDate: 1538171900, engDate: "9/28/2018", fileName: "s5061.csv"},
+    {entry_id: "1439", title: "Orchestrating Experiences: Strategy & Design for Complex Product Ecosystems", sendDate: 1537171439, engDate: "9/17/2018", fileName: "s1439.csv"},
+    {entry_id: "99", title: "Give Your Users a Seat at the Table: The Characteristics of Effective Personas", sendDate: 1536944964, engDate: "9/14/2018", fileName: "s99.csv"}
   ];
 
+
+  $('nav li ul').hide().removeClass('fallback');
+$('nav li').hover(
+  function () {
+    $('ul', this).stop().slideDown(100);
+  },
+  function () {
+    $('ul', this).stop().slideUp(1100);
+  }
+);
+
+let activeIndex;
+
+  $('.select_button').click(function(){
+        setActiveIndex(this.value)
+    });
 
 
 
@@ -27,11 +49,6 @@ let drawArray = [
 
 
 
-let activeIndex;
-
-  $('input[type=radio]').click(function(){
-        setActiveIndex(this.value)
-    });
 
 
 
@@ -385,6 +402,8 @@ function newDraw(incdate) {
          .duration(500)
          .style("opacity", 0);
        });
+
+
 
 
 
