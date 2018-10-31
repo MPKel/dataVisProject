@@ -170,7 +170,7 @@ function getStats() {
        }
 
          //if the watchDate was BEFORE the SendDate AND the sendDate minus the watchDate is less than or equal to the difference between today and the sendDate
-         if((tempHolder[6] < sendDate) && ( dateDiffInDays( new Date(sendDate * 1000), new Date(tempHolder[6] * 1000) ) <= numberDays )) {
+         if(( new Date(new Date(tempHolder[6] * 1000).toDateString()) <  new Date(new Date(sendDate * 1000).toDateString()) ) && ( dateDiffInDays( new Date(sendDate * 1000), new Date(tempHolder[6] * 1000) ) <= numberDays )) {
              if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                priorWatchesHalf.add(tempHolder[1]);
 
@@ -187,6 +187,7 @@ function getStats() {
              if( tempHolder[3] != "start" && tempHolder[3] != "onwatch" &&  typeof(tempHolder[3]) === "string"){
                  priorWatchesTotal.add(tempHolder[1]);
 
+
                  let watchesIndex = userArrayWatches.indexOf(tempHolder[1]);
                    if(watchesIndex == -1) {
                      let liveIndex = drawArray.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
@@ -198,7 +199,6 @@ function getStats() {
                }
              else if (tempHolder[3] > 0) {
                priorWatchesTotal.add(tempHolder[1]);
-
                let watchesIndex = userArrayWatches.indexOf(tempHolder[1]);
                  if(watchesIndex == -1) {
                    let liveIndex = drawArray.map(function(e) { return e.date; }).indexOf(new Date(tempHolder[6] * 1000).toDateString());
@@ -213,7 +213,7 @@ function getStats() {
 
          }
          //if the watchDate was AFTER the SendDate AND the watchDate minus the sendDate is less than or equal to the difference between today and the sendDate
-         else if( (tempHolder[6] >= sendDate) && (dateDiffInDays( new Date(tempHolder[6] * 1000), new Date(sendDate * 1000))     <= numberDays))   {
+         else if( ( new Date(new Date(tempHolder[6] * 1000).toDateString()) >= new Date(new Date(sendDate * 1000).toDateString()) ) && (dateDiffInDays( new Date(tempHolder[6] * 1000), new Date(sendDate * 1000)) <= numberDays))   {
 
              if( (tempHolder[3] === "half") || (tempHolder[3] === "finished") || (tempHolder[3] >= 50) ){
                sinceWatchesHalf.add(tempHolder[1]);
@@ -259,21 +259,16 @@ function getStats() {
     //end tallying for-loop
 
 
-// console.log(activeIndex);
+
 
 
 
 //
 drawArray.shift();
-//
-// drawData.forEach(function(d, index) {
-//   d.count = index;
-// });
 
 
 
 
-// console.log(drawData);
      //Update numbers on the front end
      setPageView();
      d3.select("#uniqueSVG").empty();
@@ -306,7 +301,7 @@ function setActiveIndex(num) {
 function newDraw(incdate) {
   d3.select("#uniqueSVG").selectAll("*").remove();
   var margin = {top: 40, right: 30, bottom: 50, left: 30},
-      width = 760,
+      width = 800,
       height = 400;
 
 
@@ -343,7 +338,7 @@ function newDraw(incdate) {
 
 
 
-  x.domain([d3.min(drawArray, function(d) { return new Date(type(d.date)); }), d3.max(drawArray, function(d) { return new Date(type(d.date)); })]);
+  x.domain([d3.min(drawArray, function(d) { return new Date(d.date); }), d3.max(drawArray, function(d) { return new Date(d.date); })]);
   y.domain([0, d3.max(drawArray, function(d) { return d.watchTally; })]);
   //
 
