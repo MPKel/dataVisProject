@@ -14,7 +14,10 @@ $(document).ready(function(){
     {entry_id: "5495", title: "Balancing Continuous Discovery and Delivery", sendDate: 1538386496, engDate: "10/01/2018", fileName: "s5495.csv"},
     {entry_id: "5061", title: "Using Visual Models to Solve Big Design Problems", sendDate: 1538171900, engDate: "9/28/2018", fileName: "s5061.csv"},
     {entry_id: "1439", title: "Orchestrating Experiences: Strategy & Design for Complex Product Ecosystems", sendDate: 1537171439, engDate: "9/17/2018", fileName: "s1439.csv"},
-    {entry_id: "99", title: "Give Your Users a Seat at the Table: The Characteristics of Effective Personas", sendDate: 1536944964, engDate: "9/14/2018", fileName: "s99.csv"}
+    {entry_id: "99", title: "Give Your Users a Seat at the Table: The Characteristics of Effective Personas", sendDate: 1536944964, engDate: "9/14/2018", fileName: "s99.csv"},
+    {entry_id: "14", title: "Building Robust Personas in 30 Days or Less", sendDate: 1536570679, engDate: "9/10/2018", fileName: "s14.csv"},
+    {entry_id: "7561", title: "Collaborative Design Discovery: Four Essential Techniques", sendDate: 1536069272, engDate: "9/4/2018", fileName: "s7561.csv"},
+    {entry_id: "8706", title: "Finding The Narrative In Numbers: Making The Most of Metrics", sendDate: 1535737752, engDate: "8/31/2018", fileName: "s8706.csv"}
   ];
 
 
@@ -160,7 +163,6 @@ function getStats() {
      // loop through each individual line of stats
      for(let i = 0; i < holder.length-1; i++) {
        let tempHolder = holder[i].split("\t");
-
 
 
 
