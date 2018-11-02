@@ -26,6 +26,8 @@
 
           <h3 class="date_line">Sent: <span id="email__date">date Placeholder</span></h3>
 
+          <!-- <input style="display:inline-block;" type="checkbox" id="isHalfSelected">Show OverHalfs</input> -->
+
           <div class="stat-container since">
             <p><span class="length-of-time">X</span> days <strong>since</strong> </p>
             <ul>
@@ -33,6 +35,16 @@
               <li><span id="since-half">X</span> over half</li>
             </ul>
           </div>
+
+              <fieldset>
+                  <legend>Select what to graph</legend>
+                  <input type="radio" name="graphWhat" value="1" checked >Watches</input>
+                  <input type="radio" name="graphWhat" value="2"> Over Half Watches </input>
+                  <input type="radio" name="graphWhat" value="3"> Graph Both </input>
+
+              </fieldset>
+
+
       </div>
 
       <svg id="uniqueSVG"></svg>

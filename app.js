@@ -33,10 +33,66 @@ $('nav li').hover(
 
 let activeIndex;
 
+
+
+
+
   $('.select_button').click(function(){
         setActiveIndex(this.value)
     });
 
+
+let halfBool = false;
+let watchesBool = true;
+let bothBool = false;
+
+    $('input:radio[name="graphWhat"]').change(function() {
+           if ($(this).val() == '1') {
+               watchesBool = true;
+               halfBool = false;
+               bothBool = false;
+               if(activeIndex){
+                 d3.select("#uniqueSVG").empty();
+                 getStats();
+             }
+
+           }
+           else if ($(this).val() == '2'){
+             halfBool = true;
+             watchesBool = false;
+             bothBool = false;
+            if(activeIndex){
+               d3.select("#uniqueSVG").empty();
+               getStats();
+            }
+           }
+           else {
+             bothBool = true;
+              if(activeIndex){
+             d3.select("#uniqueSVG").empty();
+             getStats();
+           }
+           }
+       });
+
+
+
+
+
+
+    $('#isHalfSelected').change(function() {
+      // this will contain a reference to the checkbox
+      if (this.checked) {
+        halfBool = true;
+        d3.select("#uniqueSVG").empty();
+        getStats();
+          // the checkbox is now checked
+      } else {
+        halfBool = false;
+        d3.select("#uniqueSVG").empty();
+        getStats();
+      }
+  });
 
 
 
@@ -367,13 +423,23 @@ function newDraw(incdate) {
     .attr("dy", ".71em")
     .style("text-anchor", "end");
 
-  svg.selectAll(".full")
-    .data(drawArray)
-    .enter().append("rect")
-    .attr("class", "full")
+
+
+  var bars = svg.selectAll(".bar")
+    .data(drawArray).enter()
+    .append("g")
+    .attr("class","bar");
+    // .attr("transform", function(d){
+    //   return "translate("+xTimeScale(d.date)+",0)"
+    // });
+
+  if(watchesBool === true || bothBool === true) {
+
+  var count1Bars = bars.append("rect")
+      .attr("class", "watches1")
     .attr("x", function(d) {return x( new Date(type(d.date)) ) }  )
     .attr("shape-rendering", "auto")
-    .attr( "width",  (width/drawArray.length))
+    .attr( "width",  (width/drawArray.length + 15))
     // .attr("width", function(d) { return d.bandwidth()  })
     .attr('y', function(d) { return y(d.watchTally); } )
     .attr('height', function(d,i){ return height - y(d.watchTally); })
@@ -409,6 +475,67 @@ function newDraw(incdate) {
          .duration(500)
          .style("opacity", 0);
        });
+
+     }
+
+
+       if (halfBool === true || bothBool === true) {
+
+       var count2Bars = bars.append("rect")
+           .attr("class", "halfwatches")
+         .attr("x", function(d) {return x( new Date(type(d.date)) ) }  )
+         .attr("shape-rendering", "auto")
+         .attr( "width",  (width/drawArray.length))
+         // .attr("width", function(d) { return d.bandwidth()  })
+         .attr('y', function(d) { return y(d.halfTally); } )
+         .attr('height', function(d,i){ return height - y(d.halfTally); })
+         // .attr("y", function(d) { return y(d.watchTally) + y(d.watchTally) - height;})
+         // .attr("height", function(d) { return height - y(d.watchTally); })
+         .attr("style", "outline: 2px solid white;")
+         .attr("fill", function(d) {
+           if( new Date(type(d.date)).getMonth() === new Date(incdate * 1000).getMonth() ) {
+               if( new Date(type(d.date)).getDate() >= new Date(incdate * 1000).getDate() ) {
+                 return "rgba(0,125,0,.3)";
+               }
+               else {
+                 return "steelblue";
+               }
+           }
+           else if( new Date(type(d.date)).getMonth() > new Date(incdate * 1000).getMonth() ) {
+             return "rgba(0,145,0,.3)";
+           }
+           else  {
+             return "steelblue";
+           }
+         })
+         .on("mouseover", function(d) {
+            toolIt.transition()
+              .duration(200)
+              .style("opacity", .9);
+            toolIt.html(d.date + "<br/>" + "OverHalfWatches: " + d.halfTally + "<br/>" + "Days Before/After: " + dateDiffInDays( new Date(type(d.date)), new Date(incdate * 1000)) )
+              .style("left", (d3.event.pageX) + "px")
+              .style("top", (d3.event.pageY - 28) + "px");
+            })
+          .on("mouseout", function(d) {
+            toolIt.transition()
+              .duration(500)
+              .style("opacity", 0);
+            });
+
+
+          }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
